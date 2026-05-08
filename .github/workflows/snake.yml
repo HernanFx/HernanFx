@@ -3,13 +3,15 @@ name: generate animation
 on:
   schedule:
     - cron: "0 */24 * * *" # Se ejecuta cada 24 horas
-  workflow_dispatch:
+  workflow_dispatch: # Esto permite que lo corras manualmente
   push:
     branches:
     - main
 
 jobs:
   generate:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
     
@@ -17,7 +19,7 @@ jobs:
       - name: generate-snake-svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: HernanFx
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#1014EE&color_dots=#161b22,#21262d,#30363d,#1014EE,#1014EE
             
