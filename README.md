@@ -69,7 +69,7 @@
   <br><br>
   <!-- El Gusano (Cargando desde la rama output) -->
   <h3 style="color:#1014EE"> Contribuciones </h3>
-  <img alt="Snake" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg" />
+<img alt="Snake" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg" />
 </div>
 
 <br>
