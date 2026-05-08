@@ -12,7 +12,7 @@
 <!-- Nombre animado (Azul Eléctrico #1014EE) -->
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=1014EE&size=30&center=true&vCenter=true&width=600&height=100&lines=Hola,+soy+Hern%C3%A1n+F%C3%A9lix;Estudiante+de+Ing.+de+Sistemas;Desarrollador+Full-Stack;Modesto+Solutions+CEO;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=1014EE&size=30&center=true&vCenter=true&width=600&height=100&lines=Hern%C3%A1n+F%C3%A9lix;Systems+Engineering+Student;Modesto+Solutions+CEO;">
   </a>
 </p>
 
@@ -101,3 +101,13 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
+
+<!-- Footer y Thanks -->
+<p align="center" style="color: #1014EE; font-weight: bold; font-size: 16px;">
+  <br />
+  <br />
+  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
+</p>
+
+![footer](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer.webp)
+![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
