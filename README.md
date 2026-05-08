@@ -4,13 +4,13 @@
 </div>
 
 <p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=HERNAN_FELIX&color=brightgreen" alt="watching_count" />
+  <img src="https://komarev.com/ghpvc/?username=TU_USUARIO&color=brightgreen" alt="watching_count" />
 </p>
 
 <!-- Nombre animado Typing SVG (Estilo Dženis - Cyan y Times New Roman) -->
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=00FFFF&size=25&center=true&vCenter=true&width=600&height=100&lines=Hola,+soy+Hern%C3%A1n+F%C3%A9lix;Ingeniero+de+Sistemas+en+proceso;Desarrollador+de+Modesto+Solutions;Entusiasta+del+Hardware+High-End;First+Principles+Thinker;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=00FFFF&size=25&center=true&vCenter=true&width=600&height=100&lines=Hola,+soy+Hern%C3%A1n+F%C3%A9lix;Ingeniero+de+Sistemas+en+proceso;Desarrollador+de+Modesto+Solutions;Python,+Kotlin+%26+C%2B%2B+Developer;AI+Workflow+with+Antigravity;">
   </a>
 </p>
 
@@ -24,18 +24,19 @@
   <h3> 👨🏻‍💻 Sobre Mí </h3>
 </div>
 
-- 🎓 &nbsp; **Séptimo Ciclo** en Ingeniería de Sistemas (UNTELS).
-- 🚀 &nbsp; **Proyecto Actual:** Desarrollando **Modesto Solutions** (E-commerce y Gestión).
-- 🤖 &nbsp; **AI Workflow:** Optimización de código con herramientas Open Source.
-- 🏋️ &nbsp; **Lifestyle:** Metodología de entrenamiento **Heavy Duty**.
+- 🎓 &nbsp; **7mo Ciclo de Ingeniería de Sistemas** (UNTELS - Tercio Superior).
+- 🚀 &nbsp; **Modesto Solutions:** Desarrollando sistemas de gestión y e-commerce.
+- 📱 &nbsp; **Mobile Dev:** Kotlin y Android Studio para soluciones robustas.
+- 🧠 &nbsp; **AI & Coding:** Flujo optimizado con Antigravity y agentes inteligentes.
+- 🏋️ &nbsp; **Heavy Duty:** Entrenando con intensidad, programando con lógica.
 
 <br>
 
 <!-- Bloque descriptivo estilo DIFF -->
 ```diff
-🛠️ Tercio Superior de la promoción.
-+  ✔️ Rig rig: Ryzen 5 7600X + RTX 9070 (AM5).
-#  👨‍💻 Dev: Enfocado en optimización de recursos (Windows 10 user).
--  🚀 Obsesionado con el rendimiento y la eficiencia técnica.
-!  ✨ "Si puedes imaginarlo, puedes programarlo".
-@@ 💻 Solucionando problemas desde una PC ensamblada por mí mismo. @@
+🛠️ Experiencia en Python, Kotlin, C++ y JavaScript.
++  ✔️ Rig: Ryzen 5 7600X + RTX 9070 (Socket AM5).
+#  👨‍💻 Herramientas: VS Code + Android Studio + Antigravity.
+-  🚀 Enfoque en eficiencia y optimización de recursos.
+!  ✨ "El código es arte, la lógica es el pincel".
+@@ 💻 Construyendo el futuro desde Lima, Perú. @@
