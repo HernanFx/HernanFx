@@ -47,12 +47,12 @@
 <br>
 
 <div align="center">
-  <!-- Símbolos Doodle (ww bonitos) -->
+  <!-- Símbolos Doodle corregidos -->
   <h2 align="center">Contacto:</h2>
-  <a style="margin-left: 10px;" target="_blank" href="https://linkedin.com/in/TU_LINKEDIN">
+  <a style="margin-left: 10px;" target="_blank" href="https://linkedin.com/in/HernanFx">
     <img src="https://img.icons8.com/doodle/50/000000/linkedin--v2.png">
   </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://github.com/TU_USUARIO">
+  <a style="margin-left: 10px;" target="_blank" href="https://github.com/HernanFx">
     <img src="https://img.icons8.com/doodle/50/000000/github--v1.png">
   </a>
   <a style="margin-left: 10px;" href="mailto:tu_correo@gmail.com">
@@ -63,21 +63,21 @@
 <br><br>
 
 <div align="center">
-  <!-- Gráfica 3D -->
+  <!-- Gráfica 3D (Cargando desde tu repositorio) -->
   <h3 style="color:#1014EE"> Actividad 3D </h3>
-  <img src="https://raw.githubusercontent.com/TU_USUARIO/TU_USUARIO/master/profile-3d-contrib/profile-night-green.svg" alt="3D Graph" />
+  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/master/profile-3d-contrib/profile-night-green.svg" alt="3D Graph" />
   <br><br>
-  <!-- El Gusano -->
+  <!-- El Gusano (Cargando desde la rama output) -->
   <h3 style="color:#1014EE"> Contribuciones </h3>
-  <img alt="Snake" src="https://raw.githubusercontent.com/TU_USUARIO/TU_USUARIO/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg" />
 </div>
 
 <br>
 
 <div align="center">
-  <!-- Stats -->
-  <a href="https://github.com/TU_USUARIO">
-    <img src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=tokyonight&title_color=1014EE&icon_color=1014EE&text_color=9f9f9f&bg_color=0d1117&hide_border=true" height="175px"/>
+  <!-- Stats corregidos -->
+  <a href="https://github.com/HernanFx">
+    <img src="https://github-readme-stats.vercel.app/api?username=HernanFx&show_icons=true&theme=tokyonight&title_color=1014EE&icon_color=1014EE&text_color=9f9f9f&bg_color=0d1117&hide_border=true" height="175px"/>
   </a>
 </div>
 
