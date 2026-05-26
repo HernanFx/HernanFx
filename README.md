@@ -1,6 +1,23 @@
+<h2 align="center">
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+  Lenguajes y Herramientas
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+</h2>
+
+
+<p align="center">
+  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"></code>
+  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"></code>
+  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></code>
+  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"></code>
+  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg"></code>
+  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg"></code>
+  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"></code>
+  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"></code>
+</p>
+
 <div align="center">
-  <!-- Banner Principal -->
-  <img src="https://s27389.pcdn.co/wp-content/uploads/2019/08/AdobeStock_244675452.jpeg" width="100%" height="200" style="object-fit: cover; border-radius: 10px;">
+  <img src="./assets/fondo.jpg" width="100%" />
 </div>
 
 <div align="center">
@@ -110,4 +127,8 @@
 </p>
 
 ![footer](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer.webp)
+<<<<<<< HEAD
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
+=======
+![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
+>>>>>>> c074f4b (update README, assets and workflows)
