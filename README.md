@@ -1,18 +1,28 @@
+<p align="center">
+  <img 
+    align="right"
+    src="https://raw.githubusercontent.com/HernanFx/HernanFx/main/assets/fondo.jpg"
+    width="250"
+    height="250"
+  />
+</p>
+
+<p> </p>
 </p>
 
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N5bXhmbXNjdWd5Ym9wYmF3YW9pM2EwN3R0Mms4M3RndXNnaWpxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/du3J3cXyzhj75IOgvA/giphy.gif" width="50">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 3px; color: #f1f5f9; margin: 0;">
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 3px; color: #c3c9d4; margin: 0;">
           Sobre mí
         </h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N5bXhmbXNjdWd5Ym9wYmF3YW9pM2EwN3R0Mms4M3RndXNnaWpxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/du3J3cXyzhj75IOgvA/giphy.gif" width="50">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
     </tr>
   </table>
@@ -33,7 +43,7 @@
 - 👨‍💻 Estudiante de Ingeniería de Sistemas apasionado por el desarrollo de software  
 - ⚙️ Interesado en backend, estructuras de datos y bases de datos  
 - 📚 Siempre aprendiendo nuevas tecnologías y frameworks  
-- 🧠 Apasionado por la programación y la resolución de problemas  
+- 🧠 Apasionado por la resolución de problemas con nuevas tecnologias
 - 🚀 Enfocado en crear sistemas eficientes y escalables  
 - 💼 Abierto a oportunidades de trabajo o prácticas  
 
@@ -41,7 +51,7 @@
 
 <div align="center">
   <div>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=900&size=42&pause=800&color=f1f5f9&center=true&vCenter=true&width=800&lines=Hernan+Felix;Estudiante+de+Ingenier%C3%ADa">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=900&size=42&pause=800&color=c3c9d4&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware">
   </div>
 </div>
 
@@ -51,15 +61,15 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 3px; color: #f1f5f9; margin: 0;">
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 3px; color: #c3c9d4; margin: 0;">
           Lenguajes y Herramientas
         </h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
     </tr>
   </table>
@@ -80,15 +90,15 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 3px; color: #f1f5f9; margin: 0;">
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 3px; color: #c3c9d4; margin: 0;">
           Contactos
         </h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
     </tr>
   </table>
@@ -111,15 +121,15 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 3px; color: #f1f5f9; margin: 0;">
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 3px; color: #c3c9d4; margin: 0;">
           Contribuciones
         </h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
     </tr>
   </table>
