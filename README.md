@@ -1,15 +1,3 @@
-<p align="center">
-  <img 
-    align="right"
-    src="https://raw.githubusercontent.com/HernanFx/HernanFx/main/assets/fondo.jpg"
-    width="250"
-    height="250"
-  />
-</p>
-
-<p> </p>
-</p>
-
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
@@ -30,11 +18,10 @@
 
 <p align="center">
   <img 
-    align="right"
-    src="https://raw.githubusercontent.com/HernanFx/HernanFx/main/assets/fondo.jpg"
-    width="250"
-    height="250"
-    style="border-radius:50%; border:4px solid #272996;"
+    align="right" 
+    src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" 
+    width="280"
+    alt="Coding GIF"
   />
 </p>
 
@@ -43,15 +30,15 @@
 - 👨‍💻 Estudiante de Ingeniería de Sistemas apasionado por el desarrollo de software  
 - ⚙️ Interesado en backend, estructuras de datos y bases de datos  
 - 📚 Siempre aprendiendo nuevas tecnologías y frameworks  
-- 🧠 Apasionado por la resolución de problemas con nuevas tecnologias
-- 🚀 Enfocado en crear sistemas eficientes y escalables  
+- 🧠 Apasionado por la resolución de problemas con nuevas tecnologías
+- 🚀 Enfocado en crear sistemas eficientes y scalables  
 - 💼 Abierto a oportunidades de trabajo o prácticas  
 
 <br><br>
 
 <div align="center">
   <div>
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=900&size=42&pause=800&color=c3c9d4&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=900&size=42&pause=800&color=c3c9d4&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware">
   </div>
 </div>
 
