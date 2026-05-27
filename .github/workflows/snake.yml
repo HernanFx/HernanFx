@@ -21,7 +21,7 @@ jobs:
         with:
           github_user_name: HernanFx
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#00ffcc&color_dots=#161b22,#14194c,#1e2275,#292ca1,#3b3ece,#5256fa,#7578ff,#9ca0ff,#d1d4ff
+            dist/github-contribution-grid-snake.svg?color_snake=#ffffff&color_dots=#161b22,#272996,#4d51df,#7075ff,#a3a7ff
             
       - name: push-snake-svg-to-output
         uses: crazy-max/ghaction-github-pages@v3.1.0
