@@ -1,10 +1,80 @@
-<h2 align="center">
+
+</p>
+
+<h2 align="center" style="font-family:Arial Black, Arial, sans-serif; font-size:30px; font-weight:900; letter-spacing:3px; color:#233179; display:flex; justify-content:center; align-items:center; gap:12px;">
+
+  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="50">
+
+  <span>`Sobre mí`</span>
+
+  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="50">
+
+</h2>
+<p align="center">
+  <img 
+    align="right"
+    src="https://raw.githubusercontent.com/HernanFx/HernanFx/main/assets/fondo.jpg"
+    width="250"
+    height="250"
+    style="border-radius:50%; border:4px solid #233179;"
+  />
+
+</p>
+
+<br>
+
+- 👨‍💻 Ingeniero de Sistemas apasionado por el desarrollo de software  
+- ⚙️ Interesado en backend, estructuras de datos y bases de datos  
+- 📚 Siempre aprendiendo nuevas tecnologías y frameworks  
+- 🧠 Apasionado por la programación y la resolución de problemas  
+- 🚀 Enfocado en crear sistemas eficientes y escalables  
+- 💼 Abierto a oportunidades de trabajo o prácticas  
+
+<br><br>
+
+
+
+<p align="center">
+<p> </p>
+
+<div align="center" style="position:relative; display:inline-block;">
+
+<div align="center" style="position:relative; display:inline-block;">
+
+
+<div align="center" style="position:relative; display:inline-block;">
+
+
+
+  <!-- texto principal -->
+  <div style="position:relative;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=900&size=42&pause=800&color=233179&center=true&vCenter=true&width=800&lines=Hernan+Felix;Ingeniero+de+Sistemas">
+  </div>
+
+</div>
+
+
+
+
+![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
+
+
+
+<div align="center">
+
+<h2 align="center" style="font-family:Arial Black, Arial, sans-serif; font-size:25px; font-weight:900; letter-spacing:3px; color:#233179; display:flex; justify-content:center; align-items:center; gap:1px;">
+
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
-  Lenguajes y Herramientas
+
+
+
+  <span>`Lenguajes y Herramientas`</span>
+
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+
 </h2>
 
-
+</h2>
 <p align="center">
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"></code>
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"></code>
@@ -13,59 +83,21 @@
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg"></code>
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg"></code>
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"></code>
-  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"></code>
-</p>
+ 
 
-<div align="center">
-  <img src="./assets/fondo.jpg" width="100%" />
-</div>
+![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
+<h2 align="center" style="font-family:Arial Black, Arial, sans-serif; font-size:30px; font-weight:900; letter-spacing:3px; color:#233179; display:flex; justify-content:center; align-items:center; gap:12px;">
 
-<div align="center">
-  <!-- Icono About Me -->
-  <picture><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width="50px" align="center"></picture> 
-  <h3> Ingeniería de Sistemas </h3>
-</div>
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
 
-<!-- Nombre animado (Azul Eléctrico #1014EE) -->
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=1014EE&size=30&center=true&vCenter=true&width=600&height=100&lines=Hern%C3%A1n+F%C3%A9lix;Systems+Engineering+Student;Modesto+Solutions+CEO;">
-  </a>
-</p>
 
-<!-- Barra Azul Eléctrica Separadora -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</p>
+  <span>`Contactos`</span>
 
-<br>
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
 
-<h2 align="center">Habilidades & Tecnologías:</h2>
+</h2>
 
-<p align="center">
-  <!-- Badges con tus lenguajes específicos -->
-  <img src="https://img.shields.io/badge/Python-1014EE?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Kotlin-1014EE?style=for-the-badge&logo=kotlin&logoColor=white">
-  <img src="https://img.shields.io/badge/C%2B%2B-1014EE?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-1014EE?style=for-the-badge&logo=javascript&logoColor=white">
-  <img src="https://img.shields.io/badge/PHP-1014EE?style=for-the-badge&logo=php&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/Android_Studio-1014EE?style=for-the-badge&logo=android-studio&logoColor=white">
-  <img src="https://img.shields.io/badge/VS_Code-1014EE?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-1014EE?style=for-the-badge&logo=mysql&logoColor=white">
-</p>
 
-<br>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</p>
-
-<br>
-
-<div align="center">
-  <!-- Símbolos Doodle corregidos -->
-  <h2 align="center">Contacto:</h2>
   <a style="margin-left: 10px;" target="_blank" href="https://linkedin.com/in/HernanFx">
     <img src="https://img.icons8.com/doodle/50/000000/linkedin--v2.png">
   </a>
@@ -79,56 +111,19 @@
 
 <br><br>
 
-<div align="center">
-  <!-- Gráfica 3D (Cargando desde tu repositorio) -->
-  <h3 style="color:#1014EE"> Actividad 3D </h3>
-  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/master/profile-3d-contrib/profile-night-green.svg" alt="3D Graph" />
-  <br><br>
-  <!-- El Gusano (Cargando desde la rama output) -->
-  <h3 style="color:#1014EE"> Contribuciones </h3>
+<h2 align="center" style="font-family:Arial Black, Arial, sans-serif; font-size:25px; font-weight:900; letter-spacing:3px; color:#233179; display:flex; justify-content:center; align-items:center; gap:12px;">
+
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+
+  <span>`Contribuciones`</span>
+
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+
+</h2>
+
 <img alt="Snake" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg" />
 </div>
 
-<br>
 
-<div align="center">
-  <!-- Stats corregidos -->
-  <a href="https://github.com/HernanFx">
-    <img src="https://github-readme-stats.vercel.app/api?username=HernanFx&show_icons=true&theme=tokyonight&title_color=1014EE&icon_color=1014EE&text_color=9f9f9f&bg_color=0d1117&hide_border=true" height="175px"/>
-  </a>
-</div>
 
-<br>
-
-<!-- Spotify -->
-<div align="center">
-  <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png" width="25"> <b>Listening now:</b>
-  <br><br>
-  [![Spotify](https://spotify-now-playing-esadakman.vercel.app/api/spotify?background_color=0d1117&border_color=1014EE)](https://open.spotify.com/user/TU_ID_SPOTIFY)
-</div>
-
-<br>
-
-<p align="center">
-  <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30"/>
-  <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="30"/>
-  <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="30"/>
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</p>
-
-<!-- Footer y Thanks -->
-<p align="center" style="color: #1014EE; font-weight: bold; font-size: 16px;">
-  <br />
-  <br />
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
-</p>
-
-![footer](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer.webp)
-<<<<<<< HEAD
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
-=======
-![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
->>>>>>> c074f4b (update README, assets and workflows)
