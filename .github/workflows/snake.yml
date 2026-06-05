@@ -2,8 +2,8 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *" # Se ejecuta cada 24 horas
-  workflow_dispatch: # Esto permite que lo corras manualmente desde la pestaña Actions
+    - cron: "0 0 * * *" # Arreglado: Se ejecuta exactamente a la medianoche todos los días
+  workflow_dispatch: # Permite correrlo manualmente
   push:
     branches:
       - main
@@ -16,11 +16,10 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      # 👀 PASO NUEVO CLAVE: Descarga tu repositorio en la máquina virtual
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Genera la animación de la serpiente
+      # Genera el SVG con tus cuadros actualizados
       - name: generate-snake-svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -28,7 +27,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#272996&color_dots=#161b22,#1c1e6e,#272996,#4144cc,#5f63ff
             
-      # Sube el archivo generado a la rama "output"
+      # Empuja los cambios a la rama output
       - name: push-snake-svg-to-output
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
