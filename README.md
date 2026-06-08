@@ -122,7 +122,10 @@
   </table>
 
   <br>
-  <img alt="Snake" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg" />
+  <picture>
+  <img alt="github contribution grid snake animation"
+       src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg">
+</picture>
 </div>
 
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
