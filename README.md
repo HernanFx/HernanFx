@@ -73,7 +73,7 @@
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
 <br><br>
 
-<div align="center" style="font-size: 48px; font-weight: bold; color: #c3c9d4; margin-top: 35px; margin-bottom: 15px;">
+<div align="center" style="font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 48px; font-weight: bold; color: #c3c9d4; margin-top: 35px; margin-bottom: 15px;">
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="55" style="vertical-align: middle; margin-right: 15px;">
   <span style="vertical-align: middle;">ᴄᴏɴᴛᴀᴄᴛᴏs</span>
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="55" style="vertical-align: middle; margin-left: 15px;">
