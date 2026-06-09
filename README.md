@@ -123,7 +123,7 @@
 
   <br>
 <picture>
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/snake.svg?v=1">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg?v=3">
 </picture>
 </div>
 
