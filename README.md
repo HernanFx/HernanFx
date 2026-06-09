@@ -37,7 +37,7 @@
 - ⚙️ Interesado en backend, estructuras de datos y bases de datos  
 - 📚 Siempre aprendiendo nuevas tecnologías y frameworks  
 - 🧠 Apasionado por la resolución de problemas con nuevas tecnologías
-- 🚀 Enfocado en crear sistemas eficientes y scalables  
+- 🚀 Enfocado en crear sistemas eficientes y escalables  
 - 💼 Abierto a oportunidades de trabajo o prácticas  
 
 <br><br>
