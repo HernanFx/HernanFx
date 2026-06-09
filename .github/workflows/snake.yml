@@ -2,11 +2,11 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 5 * * *" # Se ejecuta automáticamente todos los días a las 00:00 en Perú (UTC-5)
-  workflow_dispatch: # Esto te permite entrar a Actions y darle al botón "Run workflow" cuando quieras
+    - cron: "0 5 * * *" # Se ejecuta a las 00:00 en Perú (UTC-5)
+  workflow_dispatch: 
   push:
     branches:
-      - main # CUALQUIER cambio que hagas en tu rama main actualizará la serpiente al instante
+      - main 
 
 jobs:
   generate:
@@ -24,8 +24,8 @@ jobs:
         with:
           github_user_name: HernanFx
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%23272996&color_dots=%23161b22,%231b2c6e,%233a55b4,%236ca0e0,%23bfe3ff
-           
+            dist/github-contribution-grid-snake.svg?color_snake=%23272996&color_dots=%23161b22,%231e6e,%233c33bb,%235048cd,%237d76da
+            
       - name: push-snake-svg-to-output
         uses: crazy-max/ghaction-github-pages@v4
         with:
