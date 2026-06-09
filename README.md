@@ -2,11 +2,11 @@
 
 
 
-<div align="center" style="font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 34px; font-weight: bold; color: #c3c9d4; margin-top: 25px; margin-bottom: 25px;">
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40" style="vertical-align: middle; margin-right: 15px;">
+<h1 align="center" style="font-size: 2.5em; font-weight: bold; color: #c3c9d4; border: none; margin-top: 30px; margin-bottom: 30px;">
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45" style="vertical-align: middle; margin-right: 15px;">
   <span style="vertical-align: middle;">sᴏʙʀᴇ ᴍɪ</span>
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40" style="vertical-align: middle; margin-left: 15px;">
-</div>
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45" style="vertical-align: middle; margin-left: 15px;">
+</h1>
 
 
 
