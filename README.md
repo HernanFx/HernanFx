@@ -2,7 +2,7 @@
 
 
 
-<div align="center" style="font-size: 38px; font-weight: bold; color: #c3c9d4; margin-top: 30px; margin-bottom: 30px;">
+<div align="center" style="font-size: 58px; font-weight: bold; color: #c3c9d4; margin-top: 30px; margin-bottom: 30px;">
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45" style="vertical-align: middle; margin-right: 15px;">
   <span style="vertical-align: middle;">sᴏʙʀᴇ ᴍɪ</span>
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45" style="vertical-align: middle; margin-left: 15px;">
