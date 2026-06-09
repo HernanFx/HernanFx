@@ -1,19 +1,10 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
-<div align="center">
+<h2 align="center" style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4;">
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40" style="vertical-align: middle; margin-right: 12px;">
-  <span style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; vertical-align: middle;">sᴏʙʀᴇ ᴍɪ</span>
+  <span style="vertical-align: middle;">sᴏʙʀᴇ ᴍɪ</span>
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40" style="vertical-align: middle; margin-left: 12px;">
-</div>
-
-<p align="center">
-  <img 
-    align="right" 
-    src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" 
-    width="280"
-    alt="Coding GIF"
-  />
-</p>
+</h2>
 
 <br>
 
