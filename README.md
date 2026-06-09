@@ -1,21 +1,9 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
-      </td>
-      <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; margin: 0;">
-  sᴏʙʀᴇ ᴍɪ
-</h2>
-      </td>
-      <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
-      </td>
-    </tr>
-  </table>
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40" style="vertical-align: middle; margin-right: 12px;">
+  <span style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; vertical-align: middle;">sᴏʙʀᴇ ᴍɪ</span>
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40" style="vertical-align: middle; margin-left: 12px;">
 </div>
 
 <p align="center">
