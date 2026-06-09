@@ -2,36 +2,34 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 5 * * *" # 00:00 en Perú (UTC-5)
-  workflow_dispatch:
+    - cron: "0 5 * * *" # Se ejecuta automáticamente todos los días a las 00:00 en Perú (UTC-5)
+  workflow_dispatch: # Esto te permite entrar a Actions y darle al botón "Run workflow" cuando quieras
   push:
     branches:
-      - main
+      - main # CUALQUIER cambio que hagas en tu rama main actualizará la serpiente al instante
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    permissions:
+    permissions: 
       contents: write
-
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate Snake SVG
+      - name: generate-snake-svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: HernanFx
           outputs: |
-            dist/snake.svg?color_snake=%23272996&color_dots=%23ebedf0,%23c6e48b,%237bc96f,%23239a3b,%23196127
-
-      - name: Push to output branch
+            dist/github-contribution-grid-snake.svg?color_snake=%23272996&color_dots=%23161b22,%231f295d,%23272996,%234144cc,%235f63ff,%23a4b7ff
+            
+      - name: push-snake-svg-to-output
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
