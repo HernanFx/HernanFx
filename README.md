@@ -148,9 +148,7 @@
 
 
   <br>
-<picture>
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg?v=5">
-</picture>
+<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg?v=101">
 </div>
 
 <br><br>
