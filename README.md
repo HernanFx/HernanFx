@@ -73,11 +73,27 @@
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
 <br><br>
 
-<h2 align="center" style="font-size: 48px; font-weight: bold; color: #c3c9d4; border: none !important; border-bottom: 0px !important; margin-top: 35px; margin-bottom: 15px;">
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="55" style="vertical-align: middle; margin-right: 15px;">
-  <span style="vertical-align: middle;">ᴄᴏɴᴛᴀᴄᴛᴏs</span>
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="55" style="vertical-align: middle; margin-left: 15px;">
-</h2>
+
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td style="border: none; padding-right: 12px; vertical-align: middle;">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="55">
+      </td>
+      <td style="border: none; vertical-align: middle;">
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 40px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; margin: 0;">
+          ᴄᴏɴᴛᴀᴄᴛᴏs
+        </h2>
+      </td>
+      <td style="border: none; padding-left: 12px; vertical-align: middle;">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="55">
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
 
 <div align="center">
   <br>
