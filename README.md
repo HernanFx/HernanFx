@@ -78,13 +78,10 @@
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg"></code>
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"></code>
 
-  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C"></code>
+
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java"></code>
-  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"></code>
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"></code>
-  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux"></code>
   <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker"></code>
-  <code><img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" alt="Arduino"></code>
 </div>
 
 
