@@ -109,6 +109,8 @@
 </div>
 
 <br><br>
+![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
+
 
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
@@ -117,7 +119,6 @@
         <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
         <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; margin: 0;">
   ᴄᴏɴᴛʀɪʙᴜᴄɪᴏɴᴇs
 </h2>
