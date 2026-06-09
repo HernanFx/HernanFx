@@ -2,7 +2,7 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "0 5 * * *" # Se ejecuta a las 00:00 en Perú (UTC-5)
   workflow_dispatch: 
   push:
     branches:
@@ -24,7 +24,10 @@ jobs:
         with:
           github_user_name: HernanFx
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%23272996&color_dots=%23161b22,%231e6e,%233c33bb,%235048cd,%237d76da&palette=github-dark
+            dist/github-contribution-grid-snake.svg
+          # Aquí obligamos a la extensión a usar tus colores exactos y borrar el verde
+          color_snake: "#272996"
+          color_dots: "#161b22,#1e6e,#3c33bb,#161b22,#161b22"
             
       - name: push-snake-svg-to-output
         uses: crazy-max/ghaction-github-pages@v4
