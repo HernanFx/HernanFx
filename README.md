@@ -128,13 +128,6 @@
   </table>
 
 
- 
-
-<div align="center">
-  <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=HernanFx&theme=github_dark" />
-</div>
-
-
 
   <br>
 <picture>
