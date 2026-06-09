@@ -1,5 +1,10 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
+
+<img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> ʜᴇʀɴᴀɴ ғᴇʟɪx! 
+*Systems Engineering Student (Software & Hardware Developer)*
+<br />
+
 <div align="center" style="font-family: 'Arial Black', Arial, sans-serif; font-size: 38px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; margin-top: 20px; margin-bottom: 20px;">
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40" style="vertical-align: middle; margin-right: 12px;">
   <span style="vertical-align: middle;">sᴏʙʀᴇ ᴍɪ</span>
