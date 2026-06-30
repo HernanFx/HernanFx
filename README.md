@@ -108,30 +108,7 @@
 
   <br>
 
-  <table align="center" style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td style="border: none; padding: 6px 10px;">
-        <img src="https://img.shields.io/badge/Python-55%25-3c33bb?style=for-the-badge&logo=python&logoColor=white" />
-      </td>
-      <td style="border: none; padding: 6px 10px;">
-        <img src="https://img.shields.io/badge/C%2B%2B-25%25-4035ce?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-      </td>
-    </tr>
-    <tr style="border: none;">
-      <td style="border: none; padding: 6px 10px;">
-        <img src="https://img.shields.io/badge/HTML%20%2F%20CSS-10%25-5349df?style=for-the-badge&logo=html5&logoColor=white" />
-      </td>
-      <td style="border: none; padding: 6px 10px;">
-        <img src="https://img.shields.io/badge/JavaScript-6%25-736be4?style=for-the-badge&logo=javascript&logoColor=white" />
-      </td>
-    </tr>
-    <tr style="border: none;">
-      <td style="border: none; padding: 6px 10px;">
-        <img src="https://img.shields.io/badge/Kotlin-4%25-3c33bb?style=for-the-badge&logo=kotlin&logoColor=white" />
-      </td>
-      <td style="border: none; padding: 6px 10px;"></td>
-    </tr>
-  </table>
+  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=1" />
 </div>
 
 <br><br>
