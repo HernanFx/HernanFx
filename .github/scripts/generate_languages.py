@@ -60,44 +60,39 @@ def generate_svg(languages):
     items = sorted(languages.items(), key=lambda x: x[1], reverse=True)
     total_display = sum(v for _, v in items)
 
-    bars = []
+    rows = ""
     y = 0
+    row_h = 28
+    margin_l = 10
+    margin_r = 10
+    bar_x = 100
+    bar_w = 280
+    pct_x = bar_x + bar_w + 10
+
     for name, bytes_count in items:
         pct = (bytes_count / total_display) * 100
-        bar_w = int((bytes_count / total_display) * 280)
+        bw = int((bytes_count / total_display) * bar_w)
         color = LANG_COLORS.get(name, "#736be4")
         pct_str = f"{pct:.1f}%"
 
-        bars.append(f"""
-    <tr style="border: none;">
-      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 5px 15px; width: 90px;">{name}</td>
-      <td style="border: none; padding: 5px 0;">
-        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="{bar_w}" height="8" rx="4" ry="4" fill="{color}"/></svg>
-      </td>
-      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 5px 15px; width: 50px;">{pct_str}</td>
-    </tr>""")
-        y += 1
+        rows += f"""
+  <text x="{margin_l}" y="{y + 16}" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">{name}</text>
+  <rect x="{bar_x}" y="{y + 8}" width="{bar_w}" height="10" rx="5" ry="5" fill="#161b22" />
+  <rect x="{bar_x}" y="{y + 8}" width="{bw}" height="10" rx="5" ry="5" fill="{color}" />
+  <text x="{pct_x}" y="{y + 17}" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="end">{pct_str}</text>"""
+        y += row_h
 
-    bars_html = "\n".join(bars)
-
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="520" height="{len(items) * 28 + 20}" viewBox="0 0 520 {len(items) * 28 + 20}">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; background: transparent;">
-      <table style="border-collapse: collapse; border: none; margin: 0;">
-        {bars_html}
-      </table>
-    </div>
-  </foreignObject>
+    h = y + 10
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="440" height="{h}" viewBox="0 0 440 {h}">
+  <rect x="0" y="0" width="440" height="{h}" rx="8" ry="8" fill="#0d1117" />
+  {rows}
 </svg>"""
     return svg
 
 def generate_empty_svg():
-    return """<svg xmlns="http://www.w3.org/2000/svg" width="400" height="60" viewBox="0 0 400 60">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; background: transparent; text-align: center; padding-top: 20px;">
-      <span style="color: #c3c9d4; font-size: 14px;">No language data yet — push code to your repos!</span>
-    </div>
-  </foreignObject>
+    return """<svg xmlns="http://www.w3.org/2000/svg" width="440" height="80" viewBox="0 0 440 80">
+  <rect x="0" y="0" width="440" height="80" rx="8" ry="8" fill="#0d1117" />
+  <text x="220" y="45" font-family="'Segoe UI', monospace" font-size="14" fill="#c3c9d4" text-anchor="middle">No language data yet — push code to your repos!</text>
 </svg>"""
 
 def main():

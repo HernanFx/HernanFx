@@ -108,7 +108,7 @@
 
   <br>
 
-  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=1" />
+  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=2" />
 </div>
 
 <br><br>
