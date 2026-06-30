@@ -89,45 +89,16 @@
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
 <br><br>
 
-<div align="center">
-  <table style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">Python</td>
-      <td style="border: none; padding: 6px 0;">
-        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="154" height="8" rx="4" ry="4" fill="#3c33bb"/></svg>
-      </td>
-      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">55%</td>
-    </tr>
-    <tr style="border: none;">
-      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">C++</td>
-      <td style="border: none; padding: 6px 0;">
-        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="70" height="8" rx="4" ry="4" fill="#4035ce"/></svg>
-      </td>
-      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">25%</td>
-    </tr>
-    <tr style="border: none;">
-      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">HTML / CSS</td>
-      <td style="border: none; padding: 6px 0;">
-        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="28" height="8" rx="4" ry="4" fill="#5349df"/></svg>
-      </td>
-      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">10%</td>
-    </tr>
-    <tr style="border: none;">
-      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">JavaScript</td>
-      <td style="border: none; padding: 6px 0;">
-        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="17" height="8" rx="4" ry="4" fill="#736be4"/></svg>
-      </td>
-      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">6%</td>
-    </tr>
-    <tr style="border: none;">
-      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">Kotlin</td>
-      <td style="border: none; padding: 6px 0;">
-        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="11" height="8" rx="4" ry="4" fill="#3c33bb"/></svg>
-      </td>
-      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">4%</td>
-    </tr>
-  </table>
-</div>
+<table align="center">
+<tr border="none">
+<td width="50%" align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HernanFx&theme=radical" />
+</td>
+<td width="50%" align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=HernanFx&theme=radical" />
+</td>
+</tr>
+</table>
 
 <br><br>
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
