@@ -89,25 +89,44 @@
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
 <br><br>
 
-<p align="center">
-<table align="center">
-<tr border="none">
-<td width="50%" align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=HernanFx&theme=radical&show_icons=true&count_private=true&hide_border=true" />
-  <br><br>
-  <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=HernanFx&theme=radical&hide_border=true" />
-</td>
-<td width="50%" align="center">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=HernanFx&theme=radical&hide_border=true&no-bg=true&no-frame=true&langs_count=8" />
-</td>
-</tr>
-</table>
-</p>
-
-<div align=center>
-  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-    <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=HernanFx&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
-  </a>
+<div align="center">
+  <table style="border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">Python</td>
+      <td style="border: none; padding: 6px 0;">
+        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="154" height="8" rx="4" ry="4" fill="#3c33bb"/></svg>
+      </td>
+      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">55%</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">C++</td>
+      <td style="border: none; padding: 6px 0;">
+        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="70" height="8" rx="4" ry="4" fill="#4035ce"/></svg>
+      </td>
+      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">25%</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">HTML / CSS</td>
+      <td style="border: none; padding: 6px 0;">
+        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="28" height="8" rx="4" ry="4" fill="#5349df"/></svg>
+      </td>
+      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">10%</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">JavaScript</td>
+      <td style="border: none; padding: 6px 0;">
+        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="17" height="8" rx="4" ry="4" fill="#736be4"/></svg>
+      </td>
+      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">6%</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; text-align: left; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">Kotlin</td>
+      <td style="border: none; padding: 6px 0;">
+        <svg width="280" height="8" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="280" height="8" rx="4" ry="4" fill="#161b22"/><rect x="0" y="0" width="11" height="8" rx="4" ry="4" fill="#3c33bb"/></svg>
+      </td>
+      <td style="border: none; text-align: right; font-family: 'Segoe UI', monospace; font-size: 13px; color: #c3c9d4; padding: 6px 15px;">4%</td>
+    </tr>
+  </table>
 </div>
 
 <br><br>
