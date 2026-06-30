@@ -46,5 +46,6 @@ jobs:
             echo "No changes to push"
           else
             git commit -m "Update github-languages.svg"
+            git pull --rebase origin output
             git push
           fi
