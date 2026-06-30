@@ -89,12 +89,24 @@
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
 <br><br>
 
-<table align="center">
-<tr border="none">
-<td width="50%" align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HernanFx&theme=radical" />
-</td>
-<td width="50%" align="center">
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td style="border: none; padding-right: 12px; vertical-align: middle;">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
+      </td>
+      <td style="border: none; vertical-align: middle;">
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; margin: 0;">
+  ᴇsᴘᴇᴄɪᴀʟɪᴅᴀᴅ
+</h2>
+      </td>
+      <td style="border: none; padding-left: 12px; vertical-align: middle;">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
+      </td>
+    </tr>
+  </table>
+
+  <br>
 
   <table align="center" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
@@ -120,10 +132,7 @@
       <td style="border: none; padding: 6px 10px;"></td>
     </tr>
   </table>
-
-</td>
-</tr>
-</table>
+</div>
 
 <br><br>
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
