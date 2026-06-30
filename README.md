@@ -89,6 +89,30 @@
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
 <br><br>
 
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td style="border: none; padding-right: 12px; vertical-align: middle;">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
+      </td>
+      <td style="border: none; vertical-align: middle;">
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; margin: 0;">
+  ʟᴇɴɢᴜᴀᴊᴇs ᴍᴀ́s ᴜsᴀᴅᴏs
+</h2>
+      </td>
+      <td style="border: none; padding-left: 12px; vertical-align: middle;">
+        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
+      </td>
+    </tr>
+  </table>
+
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HernanFx&layout=compact&theme=radical&hide_border=true&langs_count=8" />
+</div>
+
+<br><br>
+![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
+<br><br>
 
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
@@ -148,11 +172,7 @@
 
 
   <br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg" />
-</picture>
+<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg?v=102">
 </div>
 
 <br><br>
