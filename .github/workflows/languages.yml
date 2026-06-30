@@ -1,4 +1,4 @@
-name: generate languages
+name: generate languages data
 
 on:
   schedule:
