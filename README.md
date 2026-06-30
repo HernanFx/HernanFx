@@ -97,7 +97,7 @@
       </td>
       <td style="border: none; vertical-align: middle;">
         <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; margin: 0;">
-  ʟᴇɴɢᴜᴀᴊᴇs ᴍᴀ́s ᴜsᴀᴅᴏs
+  ᴇsᴘᴇᴄɪᴀʟɪᴅᴀᴅ
 </h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
@@ -107,7 +107,7 @@
   </table>
 
   <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HernanFx&layout=compact&theme=radical&hide_border=true&langs_count=8" />
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=HernanFx&theme=radical&hide_border=true&no-bg=true&no-frame=true&langs_count=8" />
 </div>
 
 <br><br>
