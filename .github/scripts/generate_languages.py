@@ -73,7 +73,7 @@ def generate_svg(languages):
     margin_r = 10
     bar_x = 145
     bar_w = 220
-    pct_x = bar_x + bar_w + 25
+    pct_x = bar_x + bar_w + 10
     svg_w = pct_x + margin_r
 
     for name, bytes_count in items:
@@ -86,7 +86,7 @@ def generate_svg(languages):
   <text x="{margin_l}" y="{y + 16}" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">{name}</text>
   <rect x="{bar_x}" y="{y + 8}" width="{bar_w}" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="{bar_x}" y="{y + 8}" width="{bw}" height="10" rx="5" ry="5" fill="{color}" />
-  <text x="{pct_x}" y="{y + 17}" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="end">{pct_str}</text>"""
+  <text x="{pct_x}" y="{y + 17}" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">{pct_str}</text>"""
         y += row_h
 
     h = y + 10
