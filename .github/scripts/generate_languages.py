@@ -71,9 +71,10 @@ def generate_svg(languages):
     row_h = 28
     margin_l = 10
     margin_r = 10
-    bar_x = 100
-    bar_w = 280
+    bar_x = 145
+    bar_w = 220
     pct_x = bar_x + bar_w + 10
+    svg_w = pct_x + margin_r
 
     for name, bytes_count in items:
         pct = (bytes_count / total_display) * 100
@@ -89,8 +90,8 @@ def generate_svg(languages):
         y += row_h
 
     h = y + 10
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="440" height="{h}" viewBox="0 0 440 {h}">
-  <rect x="0" y="0" width="440" height="{h}" rx="8" ry="8" fill="#0d1117" />
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{svg_w}" height="{h}" viewBox="0 0 {svg_w} {h}">
+  <rect x="0" y="0" width="{svg_w}" height="{h}" rx="8" ry="8" fill="#0d1117" />
   {rows}
 </svg>"""
     return svg
