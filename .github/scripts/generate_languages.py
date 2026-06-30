@@ -73,7 +73,7 @@ def generate_svg(languages):
     margin_r = 10
     bar_x = 145
     bar_w = 220
-    pct_x = bar_x + bar_w + 10
+    pct_x = bar_x + bar_w + 25
     svg_w = pct_x + margin_r
 
     for name, bytes_count in items:
