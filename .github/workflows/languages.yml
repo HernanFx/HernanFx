@@ -16,11 +16,8 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout output branch
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: output
-          path: deploy
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -32,12 +29,22 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-      - name: Copy SVG to deploy
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: output-branch
+
+      - name: Copy SVG and push
         run: |
-          cp dist/github-languages.svg deploy/github-languages.svg
-          cd deploy
+          cp dist/github-languages.svg output-branch/github-languages.svg
+          cd output-branch
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add github-languages.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update github-languages.svg"
-          git push
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to push"
+          else
+            git commit -m "Update github-languages.svg"
+            git push
+          fi
