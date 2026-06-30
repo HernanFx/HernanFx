@@ -89,25 +89,25 @@
 ![footer_wave](https://github.com/Aurorp1g/Aurorp1g/raw/main/footer_wave.svg)
 <br><br>
 
-<div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
-      </td>
-      <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #c3c9d4; margin: 0;">
-  ᴇsᴘᴇᴄɪᴀʟɪᴅᴀᴅ
-</h2>
-      </td>
-      <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
-      </td>
-    </tr>
-  </table>
+<p align="center">
+<table align="center">
+<tr border="none">
+<td width="50%" align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=HernanFx&theme=radical&show_icons=true&count_private=true&hide_border=true" />
+  <br><br>
+  <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=HernanFx&theme=radical&hide_border=true" />
+</td>
+<td width="50%" align="center">
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=HernanFx&theme=radical&hide_border=true&no-bg=true&no-frame=true&langs_count=8" />
+</td>
+</tr>
+</table>
+</p>
 
-  <br>
-  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=HernanFx&theme=radical&hide_border=true&no-bg=true&no-frame=true&langs_count=8" />
+<div align=center>
+  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
+    <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=HernanFx&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
+  </a>
 </div>
 
 <br><br>
