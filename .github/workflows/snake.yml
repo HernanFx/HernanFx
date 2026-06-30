@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: generate-snake-svg
@@ -26,10 +26,22 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%233c33bb&color_dots=%23161b22,%233c33bb,%234035ce,%235349df,%23736be4
 
-      - name: push-snake-svg-to-output
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Checkout output branch
+        uses: actions/checkout@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ref: output
+          path: output-branch
+
+      - name: Copy SVG and push
+        run: |
+          cp dist/github-contribution-grid-snake.svg output-branch/github-contribution-grid-snake.svg
+          cd output-branch
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-contribution-grid-snake.svg
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to push"
+          else
+            git commit -m "Update github-contribution-grid-snake.svg"
+            git push
+          fi
