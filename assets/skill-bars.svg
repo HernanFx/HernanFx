@@ -1,41 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="170" viewBox="0 0 600 170" role="img" aria-label="Habilidades">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="Habilidades">
   <title>stack</title>
   <style>
-    .label { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 15px; fill: #C9D1D9; }
+    .eq-glow { filter: drop-shadow(0 0 5px rgba(108, 92, 231, 0.45)); }
+    .label { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; fill: #C9D1D9; text-anchor: middle; }
     .head  { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; fill: #736BE4; letter-spacing: 3px; }
   </style>
 
   <defs>
-    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#4035CE"/>
-      <stop offset="1" stop-color="#736BE4"/>
+    <linearGradient id="eqGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="1" stop-color="#4035CE"/>
     </linearGradient>
   </defs>
 
-  <rect x="10" y="10" width="580" height="150" rx="16" fill="#0D1117" stroke="#30363D"/>
-  <text x="30" y="38" class="head">STACK</text>
+  <rect x="10" y="10" width="580" height="200" rx="16" fill="#0D1117" stroke="#30363D"/>
+  <text x="30" y="36" class="head">STACK</text>
 
-  <text x="30" y="68" class="label">Python</text>
-  <rect x="180" y="56" width="380" height="12" rx="6" fill="#161B22"/>
-  <rect x="180" y="56" width="380" height="12" rx="6" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="361" dur="1s" begin="0.4s" fill="freeze"/>
-  </rect>
+  <rect x="70" y="166" width="460" height="3" rx="1.5" fill="#161B22"/>
 
-  <text x="30" y="96" class="label">Node.js</text>
-  <rect x="180" y="84" width="380" height="12" rx="6" fill="#161B22"/>
-  <rect x="180" y="84" width="380" height="12" rx="6" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="342" dur="1s" begin="0.6s" fill="freeze"/>
-  </rect>
+  <g class="eq-glow">
+    <rect x="83" y="68" width="34" height="100" rx="5" fill="url(#eqGrad)">
+      <animate attributeName="height" values="70;130;70" keyTimes="0;0.5;1" dur="1.4s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="98;38;98" keyTimes="0;0.5;1" dur="1.4s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="163" y="98" width="34" height="70" rx="5" fill="url(#eqGrad)">
+      <animate attributeName="height" values="45;95;45" keyTimes="0;0.5;1" dur="1.8s" begin="0.45s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="123;73;123" keyTimes="0;0.5;1" dur="1.8s" begin="0.45s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="243" y="113" width="34" height="55" rx="5" fill="url(#eqGrad)">
+      <animate attributeName="height" values="35;75;35" keyTimes="0;0.5;1" dur="1.2s" begin="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="133;93;133" keyTimes="0;0.5;1" dur="1.2s" begin="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="323" y="83" width="34" height="85" rx="5" fill="url(#eqGrad)">
+      <animate attributeName="height" values="57;113;57" keyTimes="0;0.5;1" dur="2s" begin="0.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="111;55;111" keyTimes="0;0.5;1" dur="2s" begin="0.15s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="403" y="118" width="34" height="50" rx="5" fill="url(#eqGrad)">
+      <animate attributeName="height" values="28;72;28" keyTimes="0;0.5;1" dur="1.6s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="140;96;140" keyTimes="0;0.5;1" dur="1.6s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="483" y="53" width="34" height="115" rx="5" fill="url(#eqGrad)">
+      <animate attributeName="height" values="83;147;83" keyTimes="0;0.5;1" dur="2.2s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="85;21;85" keyTimes="0;0.5;1" dur="2.2s" begin="0.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <text x="30" y="124" class="label">C++</text>
-  <rect x="180" y="112" width="380" height="12" rx="6" fill="#161B22"/>
-  <rect x="180" y="112" width="380" height="12" rx="6" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="304" dur="1s" begin="0.8s" fill="freeze"/>
-  </rect>
-
-  <text x="30" y="152" class="label">PostgreSQL</text>
-  <rect x="180" y="140" width="380" height="12" rx="6" fill="#161B22"/>
-  <rect x="180" y="140" width="380" height="12" rx="6" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="323" dur="1s" begin="1s" fill="freeze"/>
-  </rect>
+  <text x="100" y="192" class="label">TypeScript</text>
+  <text x="180" y="192" class="label">CSS</text>
+  <text x="260" y="192" class="label">HTML</text>
+  <text x="340" y="192" class="label">JSX</text>
+  <text x="420" y="192" class="label">JSON</text>
+  <text x="500" y="192" class="label">PostgreSQL</text>
 </svg>
