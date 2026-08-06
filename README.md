@@ -15,12 +15,6 @@
 <br>
 
 <div align="center">
-  <img src="assets/banner.svg" width="750">
-</div>
-
-<br>
-
-<div align="center">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
@@ -176,8 +170,8 @@
 <div align="center">
   <div style="display:inline-block; text-align:center; background:rgba(108,92,231,0.08); border:1px solid rgba(108,92,231,0.25); border-radius:20px; padding:28px 40px; margin:8px auto;">
     <div style="font-family:'Segoe UI',Arial,sans-serif; color:#6C5CE7; font-size:28px; font-weight:700; font-variant:small-caps; letter-spacing:1px; margin:0 0 20px 0;">📫 ¡Hablemos!</div>
-    <a href="https://github.com/HernanFx" target="_blank" aria-label="GitHub" style="display:inline-block; width:72px; height:72px; border-radius:50%; background:#181717; line-height:72px; text-align:center; margin:10px;"><img src="assets/logo-github.svg" width="36" height="36" alt="" style="vertical-align:middle;"></a>
-    <a href="https://linkedin.com/in/HernanFx" target="_blank" aria-label="LinkedIn" style="display:inline-block; width:72px; height:72px; border-radius:50%; background:#0A66C2; line-height:72px; text-align:center; margin:10px;"><img src="assets/logo-linkedin.svg" width="36" height="36" alt="" style="vertical-align:middle;"></a>
+    <a href="https://github.com/HernanFx" target="_blank" aria-label="GitHub" style="display:inline-block; width:72px; height:72px; border-radius:50%; background:#181717; line-height:72px; text-align:center; margin:14px;"><img src="assets/logo-github.svg" width="36" height="36" alt="" style="vertical-align:middle;"></a>
+    <a href="https://linkedin.com/in/HernanFx" target="_blank" aria-label="LinkedIn" style="display:inline-block; width:72px; height:72px; border-radius:50%; background:#0A66C2; line-height:72px; text-align:center; margin:14px;"><img src="assets/logo-linkedin.svg" width="36" height="36" alt="" style="vertical-align:middle;"></a>
     
   </div>
 </div>
