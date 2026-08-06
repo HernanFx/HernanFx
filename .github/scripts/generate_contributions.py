@@ -91,7 +91,6 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
           contributionDays {
             date
             contributionCount
-            level
           }
         }
       }
@@ -106,6 +105,23 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
     })
     try:
         cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+        # ContributionCalendarDay has no `level` field — compute the 0-4 level
+        # from contributionCount using GitHub's quartile criterion based on the
+        # period maximum. Same day structure as the HTML fallback:
+        # {date, contributionCount, level}.
+        counts = [
+            day.get("contributionCount", 0)
+            for week in cal.get("weeks", [])
+            for day in week.get("contributionDays", [])
+        ]
+        max_count = max(counts) if counts else 0
+        for week in cal.get("weeks", []):
+            for day in week.get("contributionDays", []):
+                count = day.get("contributionCount", 0)
+                if count == 0 or max_count == 0:
+                    day["level"] = 0
+                else:
+                    day["level"] = min(4, 1 + (3 * count) // max_count)
         return cal
     except Exception:
         print("  FULL RESPONSE:", json.dumps(data)[:600])
