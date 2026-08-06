@@ -144,8 +144,6 @@
 <br>
 
 <div align="center">
-  <img alt="github contribution heatmap" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contributions.svg?v=3">
-  <br>
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg?v=105">
 </div>
 
