@@ -102,6 +102,28 @@ def diagnose_repo_access():
         return -1
 
 
+def diagnose_token_type():
+    """Distingue token fine-grained (plan=null) de clásico (plan={...})."""
+    url = "https://api.github.com/user"
+    req = urllib.request.Request(url, headers={
+        "Authorization": f"Bearer {TOKEN}",
+        "User-Agent": "github-readme-contributions",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            me = json.loads(r.read())
+        plan = me.get("plan")
+        print(f"  DIAG token type: plan={plan}")
+        if plan is None:
+            print("  DIAG token type: FINE-GRAINED (github_pat_) — las privadas NO se incluyen en el calendario")
+        else:
+            print("  DIAG token type: CLASSIC (ghp_) — las privadas DEBERIAN incluirse")
+        return plan
+    except Exception as e:
+        print(f"  DIAG token type ERROR -> {e}")
+        return None
+
+
 def get_calendar():
     today = datetime.date.today()
     from_date = today - datetime.timedelta(days=365)
@@ -314,6 +336,7 @@ def main():
     if TOKEN:
         print("Diagnosing private repo access...")
         diagnose_repo_access()
+        diagnose_token_type()
 
     print("Fetching contribution calendar (GraphQL)...")
     cal = get_calendar()
