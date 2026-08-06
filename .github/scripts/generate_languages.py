@@ -133,6 +133,9 @@ def main():
         if repo.get("fork"):
             print(f"  Skipping fork: {repo['full_name']}")
             continue
+        if repo.get("name") == USERNAME:
+            print(f"  Skipping profile repo: {repo['full_name']}")
+            continue
         name = repo["full_name"]
         print(f"  Fetching languages for {name}...")
         langs = get_languages(name)
