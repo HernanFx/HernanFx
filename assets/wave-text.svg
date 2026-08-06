@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="130" viewBox="0 0 360 130" role="img" aria-label="welcome!">
+  <title>welcome!</title>
+  <style>
+    .letter { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 54px; font-weight: 700; text-anchor: middle; }
+  </style>
+
+  <rect x="6" y="8" width="348" height="114" rx="16" fill="#0D1117" stroke="#30363D"/>
+
+  <text x="52" y="86" class="letter" fill="#C9D1D9">w
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" keyTimes="0;0.5;1" dur="1.7s" begin="0.04s" repeatCount="indefinite"/>
+  </text>
+  <text x="84" y="86" class="letter" fill="#C9D1D9">e
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" keyTimes="0;0.5;1" dur="1.7s" begin="0.17s" repeatCount="indefinite"/>
+  </text>
+  <text x="116" y="86" class="letter" fill="#C9D1D9">l
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" keyTimes="0;0.5;1" dur="1.7s" begin="0.3s" repeatCount="indefinite"/>
+  </text>
+  <text x="148" y="86" class="letter" fill="#C9D1D9">c
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" keyTimes="0;0.5;1" dur="1.7s" begin="0.43s" repeatCount="indefinite"/>
+  </text>
+  <text x="180" y="86" class="letter" fill="#C9D1D9">o
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" keyTimes="0;0.5;1" dur="1.7s" begin="0.56s" repeatCount="indefinite"/>
+  </text>
+  <text x="212" y="86" class="letter" fill="#C9D1D9">m
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" keyTimes="0;0.5;1" dur="1.7s" begin="0.69s" repeatCount="indefinite"/>
+  </text>
+  <text x="244" y="86" class="letter" fill="#C9D1D9">e
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" keyTimes="0;0.5;1" dur="1.7s" begin="0.82s" repeatCount="indefinite"/>
+  </text>
+  <text x="276" y="86" class="letter" fill="#6C5CE7">!
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" keyTimes="0;0.5;1" dur="1.7s" begin="0.95s" repeatCount="indefinite"/>
+  </text>
+</svg>

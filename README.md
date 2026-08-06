@@ -1,12 +1,30 @@
 <div align="center">
+  <img src="assets/wave-text.svg" width="300">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/gradient-pulse.svg" width="420">
+</div>
+
+<br>
+
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.vercel.app?font=Poppins&size=38&pause=800&color=C9D1D9&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Backend+%26+Bases+de+Datos">
-    <img src="https://readme-typing-svg.vercel.app?font=Poppins&size=38&pause=800&color=24292F&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Backend+%26+Bases+de+Datos">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Poppins&size=38&pause=800&color=C9D1D9&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Backend+%26+Soluciones+Tecnol%C3%B3gicas">
+    <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=38&pause=800&color=24292F&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Backend+%26+Soluciones+Tecnol%C3%B3gicas">
   </picture>
 </div>
 
+<br>
+
+<div align="center">
+  <img src="assets/terminal.svg" width="580">
+</div>
+
 <p align="center">
-  <em>Estudiante de Ingeniería de Sistemas · Apasionado por el backend y las bases de datos</em>
+  <em>Estudiante de Ingeniería de Sistemas · Apasionado por el backend y soluciones tecnológicas</em>
 </p>
 
 <br>
@@ -18,15 +36,19 @@
         <img src="assets/about.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0;">
-          sᴏʙʀᴇ ᴍɪ
-        </h2>
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Sobre Mí</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
         <img src="assets/about.gif" width="40">
       </td>
     </tr>
   </table>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/typing-dots.svg" width="140">
 </div>
 
 <br>
@@ -43,7 +65,8 @@
   📚 Siempre aprendiendo nuevas tecnologías y frameworks<br>
   🧠 Apasionado por la resolución de problemas con nuevas tecnologías<br>
   🚀 Enfocado en crear sistemas eficientes y escalables<br>
-  💼 Abierto a oportunidades de trabajo o prácticas
+  💼 Abierto a oportunidades de trabajo o prácticas<br>
+  📚 Actualmente: Python · C++ · Node.js · PostgreSQL
 </p>
 
 <br>
@@ -55,9 +78,7 @@
         <img src="assets/about.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0;">
-          ʟᴇɴɢᴜᴀᴊᴇs ʏ ʜᴇʀʀᴀᴍɪᴇɴᴛᴀs
-        </h2>
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Lenguajes y Herramientas</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
         <img src="assets/about.gif" width="40">
@@ -84,15 +105,19 @@
 <br>
 
 <div align="center">
+  <img src="assets/skill-bars.svg" width="440">
+</div>
+
+<br>
+
+<div align="center">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
         <img src="assets/about.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0;">
-          ʟᴇɴɢᴜᴀᴊᴇs ᴍás ᴜsᴀᴅᴏs
-        </h2>
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Lenguajes Más Usados</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
         <img src="assets/about.gif" width="40">
@@ -116,9 +141,7 @@
         <img src="assets/about.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0;">
-          ᴄᴏɴᴛʀɪʙᴜᴄɪᴏɴᴇs
-        </h2>
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Contribuciones</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
         <img src="assets/about.gif" width="40">
@@ -142,9 +165,7 @@
         <img src="assets/about.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0;">
-          ᴄᴏɴᴛᴀᴄᴛᴏ
-        </h2>
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Contacto</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
         <img src="assets/about.gif" width="40">

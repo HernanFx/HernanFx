@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="170" viewBox="0 0 600 170" role="img" aria-label="Habilidades">
+  <title>stack</title>
+  <style>
+    .label { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 15px; fill: #C9D1D9; }
+    .pct   { font-family: 'Segoe UI', Consolas, monospace; font-size: 13px; fill: #8B949E; }
+    .head  { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; fill: #736BE4; letter-spacing: 3px; }
+  </style>
+
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4035CE"/>
+      <stop offset="1" stop-color="#736BE4"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="10" y="10" width="580" height="150" rx="16" fill="#0D1117" stroke="#30363D"/>
+  <text x="30" y="38" class="head">STACK</text>
+
+  <text x="30" y="68" class="label">Python</text>
+  <rect x="180" y="56" width="380" height="12" rx="6" fill="#21262D"/>
+  <rect x="180" y="56" width="380" height="12" rx="6" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;266;266;0" keyTimes="0;0.4;0.85;1" dur="3.6s" begin="0.15s" repeatCount="indefinite"/>
+  </rect>
+  <text x="570" y="68" text-anchor="end" class="pct">70%</text>
+
+  <text x="30" y="96" class="label">C++</text>
+  <rect x="180" y="84" width="380" height="12" rx="6" fill="#21262D"/>
+  <rect x="180" y="84" width="380" height="12" rx="6" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;209;209;0" keyTimes="0;0.4;0.85;1" dur="3.6s" begin="0.4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="570" y="96" text-anchor="end" class="pct">55%</text>
+
+  <text x="30" y="124" class="label">Node.js</text>
+  <rect x="180" y="112" width="380" height="12" rx="6" fill="#21262D"/>
+  <rect x="180" y="112" width="380" height="12" rx="6" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;190;190;0" keyTimes="0;0.4;0.85;1" dur="3.6s" begin="0.65s" repeatCount="indefinite"/>
+  </rect>
+  <text x="570" y="124" text-anchor="end" class="pct">50%</text>
+
+  <text x="30" y="152" class="label">PostgreSQL</text>
+  <rect x="180" y="140" width="380" height="12" rx="6" fill="#21262D"/>
+  <rect x="180" y="140" width="380" height="12" rx="6" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;228;228;0" keyTimes="0;0.4;0.85;1" dur="3.6s" begin="0.9s" repeatCount="indefinite"/>
+  </rect>
+  <text x="570" y="152" text-anchor="end" class="pct">60%</text>
+</svg>

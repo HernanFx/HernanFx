@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="170" viewBox="0 0 600 170" role="img" aria-label="Terminal HernanFx">
+  <title>HernanFx — terminal</title>
+  <style>
+    .t-line { font-family: 'Segoe UI', Consolas, monospace; font-size: 15px; fill: #C9D1D9; }
+    .t-prompt { fill: #6C5CE7; }
+  </style>
+
+  <rect x="10" y="10" width="580" height="150" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <rect x="10" y="10" width="580" height="32" rx="12" fill="#161B22"/>
+  <rect x="10" y="34" width="580" height="8" fill="#161B22"/>
+
+  <circle cx="34" cy="26" r="6" fill="#FF5F56"/>
+  <circle cx="54" cy="26" r="6" fill="#FFBD2E"/>
+  <circle cx="74" cy="26" r="6" fill="#27C93F"/>
+  <text x="300" y="30" text-anchor="middle" font-size="11" fill="#8B949E" font-family="'Segoe UI', Consolas, monospace">HernanFx — bash</text>
+
+  <text x="28" y="66" class="t-line">
+    <tspan class="t-prompt">&gt; </tspan>inicializando HernanFx...
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1;0.14;1" dur="8s" begin="0.4s" repeatCount="indefinite"/>
+  </text>
+  <text x="28" y="86" class="t-line">
+    <tspan class="t-prompt">&gt; </tspan>backend: python, node, c++
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1;0.14;1" dur="8s" begin="1.6s" repeatCount="indefinite"/>
+  </text>
+  <text x="28" y="106" class="t-line">
+    <tspan class="t-prompt">&gt; </tspan>bases de datos: postgresql
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1;0.14;1" dur="8s" begin="2.8s" repeatCount="indefinite"/>
+  </text>
+  <text x="28" y="126" class="t-line">
+    <tspan class="t-prompt">&gt; </tspan>estado: aprendiendo siempre
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1;0.14;1" dur="8s" begin="4s" repeatCount="indefinite"/>
+  </text>
+  <text x="28" y="146" class="t-line">
+    <tspan class="t-prompt">&gt; </tspan>listo ✓
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1;0.14;1" dur="8s" begin="5.2s" repeatCount="indefinite"/>
+  </text>
+
+  <rect x="138" y="131" width="8" height="17" rx="2" fill="#6C5CE7">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
