@@ -28,6 +28,7 @@ jobs:
         run: python .github/scripts/generate_languages.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          LANG_TOKEN: ${{ secrets.LANG_TOKEN }}
 
       - name: Checkout output branch
         uses: actions/checkout@v4

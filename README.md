@@ -96,7 +96,7 @@
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=5" />
+  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=6" />
 </div>
 
 <br>
@@ -146,7 +146,7 @@
 <div align="center">
   <img alt="github contribution heatmap" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contributions.svg?v=3">
   <br>
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg?v=104">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-contribution-grid-snake.svg?v=105">
 </div>
 
 <br>

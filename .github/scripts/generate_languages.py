@@ -4,7 +4,14 @@ import urllib.request
 import collections
 
 USERNAME = "HernanFx"
-TOKEN = os.environ.get("GITHUB_TOKEN", "")
+TOKEN = os.environ.get("LANG_TOKEN") or os.environ.get("GITHUB_TOKEN", "")
+
+if os.environ.get("LANG_TOKEN"):
+    print("Using LANG_TOKEN (private repos included)")
+elif os.environ.get("GITHUB_TOKEN"):
+    print("Using GITHUB_TOKEN (public only)")
+else:
+    print("Using no token (unauthenticated, public only)")
 
 LANG_COLORS = {
     "Python": "#3c33bb",
@@ -46,8 +53,11 @@ def req(url):
 def get_repos():
     repos = []
     page = 1
+    # With LANG_TOKEN we can also see private repos (type=owner includes them).
+    # Without it, keep type=public: unauthenticated requests only see public.
+    repo_type = "owner" if os.environ.get("LANG_TOKEN") else "public"
     while True:
-        data = req(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type=public")
+        data = req(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type={repo_type}")
         if not data:
             break
         repos.extend(data)
