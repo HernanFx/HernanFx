@@ -96,7 +96,7 @@
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=3" />
+  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=4" />
 </div>
 
 <br>
@@ -169,11 +169,7 @@
 
 <div align="center">
   <div align="center">📫 ¡Hablemos!</div>
-  <table border="0" cellpadding="18">
-    <tr>
-      <td><a href="https://github.com/HernanFx" target="_blank"><img src="assets/logo-github.svg" width="64" height="64" alt="GitHub"></a></td>
-      <td><a href="https://linkedin.com/in/HernanFx" target="_blank"><img src="assets/logo-linkedin.svg" width="64" height="64" alt="LinkedIn"></a></td>
-      <td></td>
-    </tr>
-  </table>
+  <a href="https://github.com/HernanFx" target="_blank" style="display:inline-block; margin:20px;"><img src="assets/logo-github.svg" width="64" height="64" alt="GitHub"></a>
+  <a href="https://linkedin.com/in/HernanFx" target="_blank" style="display:inline-block; margin:20px;"><img src="assets/logo-linkedin.svg" width="64" height="64" alt="LinkedIn"></a>
+  
 </div>
