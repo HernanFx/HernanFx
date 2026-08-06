@@ -108,6 +108,11 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
         cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
         return cal
     except Exception:
+        print("  FULL RESPONSE:", json.dumps(data)[:600])
+        print("  ERRORS:", json.dumps(data.get("errors", "none"))[:600])
+        print("  HAS DATA:", "data" in data,
+              "| HAS USER:", "user" in data.get("data", {}),
+              "| HAS CONTRIBUTIONS:", "contributionsCollection" in data.get("data", {}).get("user", {}))
         print("  ERROR: no contribution calendar in response")
         return None
 
