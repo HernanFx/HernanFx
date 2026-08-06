@@ -1,28 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="178" viewBox="0 0 450 178">
-  <rect x="0" y="0" width="450" height="178" rx="8" ry="8" fill="#0d1117" />
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="38" viewBox="0 0 450 38">
+  <rect x="0" y="0" width="450" height="38" rx="8" ry="8" fill="#0d1117" />
   
-  <text x="10" y="16" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">Python</text>
+  <text x="10" y="16" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">HTML</text>
   <rect x="145" y="8" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="8" width="119" height="10" rx="5" ry="5" fill="#3c33bb" />
-  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">54.2%</text>
-  <text x="10" y="44" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">C++</text>
-  <rect x="145" y="36" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="36" width="54" height="10" rx="5" ry="5" fill="#4035ce" />
-  <text x="375" y="45" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">24.5%</text>
-  <text x="10" y="72" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">HTML</text>
-  <rect x="145" y="64" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="64" width="21" height="10" rx="5" ry="5" fill="#5349df" />
-  <text x="375" y="73" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">9.7%</text>
-  <text x="10" y="100" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">JavaScript</text>
-  <rect x="145" y="92" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="92" width="12" height="10" rx="5" ry="5" fill="#736be4" />
-  <text x="375" y="101" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">5.8%</text>
-  <text x="10" y="128" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">Kotlin</text>
-  <rect x="145" y="120" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="120" width="8" height="10" rx="5" ry="5" fill="#3c33bb" />
-  <text x="375" y="129" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">4.0%</text>
-  <text x="10" y="156" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">CSS</text>
-  <rect x="145" y="148" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="148" width="3" height="10" rx="5" ry="5" fill="#5349df" />
-  <text x="375" y="157" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">1.8%</text>
+  <rect x="145" y="8" width="220" height="10" rx="5" ry="5" fill="#5349df" />
+  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">100.0%</text>
 </svg>
