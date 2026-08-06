@@ -78,6 +78,30 @@ def gql(query, variables):
         return {}
 
 
+def diagnose_repo_access():
+    """Cuenta cuántos repos PRIVADOS ve el token. 0 = el token no puede ver privados (causa del 200)."""
+    url = "https://api.github.com/user/repos?per_page=100&type=all"
+    req = urllib.request.Request(url, headers={
+        "Authorization": f"Bearer {TOKEN}",
+        "User-Agent": "github-readme-contributions",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            repos = json.loads(r.read())
+        if not repos:
+            print("  DIAG repo access: 0 repos — el token no puede ver repos (sin acceso o rate limit)")
+            return 0
+        private = [x["full_name"] for x in repos if x.get("private")]
+        public = [x["full_name"] for x in repos if not x.get("private")]
+        print(f"  DIAG repo access: {len(repos)} repos total | {len(private)} PRIVADOS visibles | {len(public)} publicos")
+        if private:
+            print(f"  DIAG privados visibles (primeros 3): {', '.join(private[:3])}")
+        return len(private)
+    except Exception as e:
+        print(f"  DIAG repo access ERROR -> {e}")
+        return -1
+
+
 def get_calendar():
     today = datetime.date.today()
     from_date = today - datetime.timedelta(days=365)
@@ -286,6 +310,10 @@ def build_fallback_svg():
 
 def main():
     os.makedirs("dist", exist_ok=True)
+
+    if TOKEN:
+        print("Diagnosing private repo access...")
+        diagnose_repo_access()
 
     print("Fetching contribution calendar (GraphQL)...")
     cal = get_calendar()
