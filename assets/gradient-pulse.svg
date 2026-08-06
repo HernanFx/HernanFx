@@ -6,6 +6,7 @@
       50%      { filter: drop-shadow(0 0 10px rgba(108, 92, 231, 0.9)); }
     }
     .title-glow { animation: glowPulse 3s ease-in-out infinite; }
+    .letter { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 58px; font-weight: 700; text-anchor: middle; }
   </style>
 
   <defs>
@@ -21,7 +22,30 @@
 
   <rect x="8" y="10" width="464" height="130" rx="16" fill="#0D1117" stroke="#30363D"/>
 
-  <text x="240" y="88" text-anchor="middle" class="title-glow" font-family="'Segoe UI', system-ui, sans-serif" font-size="58" font-weight="700" fill="url(#grad)">HernanFx</text>
+  <text x="96" y="88" class="letter title-glow" fill="url(#grad)">H
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 -4;0 0" keyTimes="0;0.5;0.8;1" dur="1.7s" begin="0.04s" repeatCount="indefinite"/>
+  </text>
+  <text x="132" y="88" class="letter title-glow" fill="url(#grad)">e
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 -4;0 0" keyTimes="0;0.5;0.8;1" dur="1.7s" begin="0.17s" repeatCount="indefinite"/>
+  </text>
+  <text x="168" y="88" class="letter title-glow" fill="url(#grad)">r
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 -4;0 0" keyTimes="0;0.5;0.8;1" dur="1.7s" begin="0.3s" repeatCount="indefinite"/>
+  </text>
+  <text x="204" y="88" class="letter title-glow" fill="url(#grad)">n
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 -4;0 0" keyTimes="0;0.5;0.8;1" dur="1.7s" begin="0.43s" repeatCount="indefinite"/>
+  </text>
+  <text x="240" y="88" class="letter title-glow" fill="url(#grad)">a
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 -4;0 0" keyTimes="0;0.5;0.8;1" dur="1.7s" begin="0.56s" repeatCount="indefinite"/>
+  </text>
+  <text x="276" y="88" class="letter title-glow" fill="url(#grad)">n
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 -4;0 0" keyTimes="0;0.5;0.8;1" dur="1.7s" begin="0.69s" repeatCount="indefinite"/>
+  </text>
+  <text x="312" y="88" class="letter title-glow" fill="url(#grad)">F
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 -4;0 0" keyTimes="0;0.5;0.8;1" dur="1.7s" begin="0.82s" repeatCount="indefinite"/>
+  </text>
+  <text x="348" y="88" class="letter title-glow" fill="url(#grad)">x
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 -4;0 0" keyTimes="0;0.5;0.8;1" dur="1.7s" begin="0.95s" repeatCount="indefinite"/>
+  </text>
 
   <text x="240" y="122" text-anchor="middle" font-size="15" fill="#8B949E" font-family="'Segoe UI', system-ui, sans-serif" letter-spacing="5">
     SOFTWARE &amp; HARDWARE
