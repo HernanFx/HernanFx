@@ -1,8 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="38" viewBox="0 0 450 38">
-  <rect x="0" y="0" width="450" height="38" rx="8" ry="8" fill="#0d1117" />
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="66" viewBox="0 0 450 66">
+  <rect x="0" y="0" width="450" height="66" rx="8" ry="8" fill="#0d1117" />
   
-  <text x="10" y="16" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">HTML</text>
+  <text x="10" y="16" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">PHP</text>
   <rect x="145" y="8" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="8" width="220" height="10" rx="5" ry="5" fill="#5349df" />
-  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">100.0%</text>
+  <rect x="145" y="8" width="173" height="10" rx="5" ry="5" fill="#4035ce" />
+  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">78.8%</text>
+  <text x="10" y="44" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">TypeScript</text>
+  <rect x="145" y="36" width="220" height="10" rx="5" ry="5" fill="#161b22" />
+  <rect x="145" y="36" width="46" height="10" rx="5" ry="5" fill="#736be4" />
+  <text x="375" y="45" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">21.2%</text>
 </svg>
