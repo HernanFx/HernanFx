@@ -174,21 +174,12 @@
 <br>
 
 <div align="center">
-  <div style="display:inline-block; text-align:center; background:rgba(108,92,231,0.08); border:1px solid rgba(108,92,231,0.25); border-radius:20px; padding:28px 36px; margin:8px auto;">
-    <div style="font-family:'Segoe UI',Arial,sans-serif; color:#6C5CE7; font-size:26px; font-weight:700; font-variant:small-caps; letter-spacing:1px; margin:0 0 6px 0;">
-      📫 ¡Hablemos!
-    </div>
-    <p style="font-family:'Segoe UI',Arial,sans-serif; color:#57606A; font-size:15px; font-weight:400; margin:0 0 16px 0;">
-      ⚡ Abierto a prácticas y oportunidades laborales
-    </p>
-    <a href="https://github.com/HernanFx" target="_blank" style="display:inline-block; background:#181717; color:#FFFFFF; font-family:'Segoe UI',Arial,sans-serif; font-size:16px; font-weight:700; padding:12px 24px; border-radius:12px; margin:6px; text-decoration:none;">
-      <img src="assets/logo-github.svg" width="20" height="20" alt="GitHub icon" style="vertical-align:middle; margin-right:8px;">GitHub
-    </a>
-    <a href="https://linkedin.com/in/HernanFx" target="_blank" style="display:inline-block; background:#0A66C2; color:#FFFFFF; font-family:'Segoe UI',Arial,sans-serif; font-size:16px; font-weight:700; padding:12px 24px; border-radius:12px; margin:6px; text-decoration:none;">
-      <img src="assets/logo-linkedin.svg" width="20" height="20" alt="LinkedIn icon" style="vertical-align:middle; margin-right:8px;">LinkedIn
-    </a>
-    <a href="" style="display:inline-block; background:#EA4335; color:#FFFFFF; font-family:'Segoe UI',Arial,sans-serif; font-size:16px; font-weight:700; padding:12px 24px; border-radius:12px; margin:6px; text-decoration:none;">
-      <img src="assets/logo-gmail.svg" width="20" height="20" alt="Gmail icon" style="vertical-align:middle; margin-right:8px;">Gmail
-    </a>
+  <div style="display:inline-block; text-align:center; background:rgba(108,92,231,0.08); border:1px solid rgba(108,92,231,0.25); border-radius:20px; padding:32px 40px; margin:8px auto;">
+    <div style="font-family:'Segoe UI',Arial,sans-serif; color:#6C5CE7; font-size:30px; font-weight:700; font-variant:small-caps; letter-spacing:1px; margin:0 0 8px 0;">📫 ¡Hablemos!</div>
+    <p style="font-family:'Segoe UI',Arial,sans-serif; color:#57606A; font-size:15px; font-weight:400; margin:0 0 12px 0;">⚡ Abierto a prácticas y oportunidades laborales</p>
+    <div style="display:inline-block; background:rgba(46,160,67,0.12); border:1px solid rgba(46,160,67,0.35); border-radius:999px; padding:6px 14px; font-family:'Segoe UI',Arial,sans-serif; font-size:14px; font-weight:600; color:#2EA043; margin:0 0 20px 0;">🟢 Disponible</div>
+    <a href="https://github.com/HernanFx" target="_blank" style="display:inline-block; background:#181717; color:#FFFFFF; font-family:'Segoe UI',Arial,sans-serif; font-size:17px; font-weight:700; padding:16px 32px; border-radius:14px; margin:8px; text-decoration:none;"><img src="assets/logo-github.svg" width="28" height="28" alt="GitHub icon" style="vertical-align:middle; margin-right:8px;">GitHub</a>
+    <a href="https://linkedin.com/in/HernanFx" target="_blank" style="display:inline-block; background:#0A66C2; color:#FFFFFF; font-family:'Segoe UI',Arial,sans-serif; font-size:17px; font-weight:700; padding:16px 32px; border-radius:14px; margin:8px; text-decoration:none;"><img src="assets/logo-linkedin.svg" width="28" height="28" alt="LinkedIn icon" style="vertical-align:middle; margin-right:8px;">LinkedIn</a>
+    <a href="" style="display:inline-block; background:#EA4335; color:#FFFFFF; font-family:'Segoe UI',Arial,sans-serif; font-size:17px; font-weight:700; padding:16px 32px; border-radius:14px; margin:8px; text-decoration:none;"><img src="assets/logo-gmail.svg" width="28" height="28" alt="Gmail icon" style="vertical-align:middle; margin-right:8px;">Gmail</a>
   </div>
 </div>
