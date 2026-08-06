@@ -96,7 +96,7 @@
 <br>
 
 <div align="center">
-  <img src="dist/github-languages.svg" />
+  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=5" />
 </div>
 
 <br>
