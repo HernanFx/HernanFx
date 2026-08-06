@@ -1,8 +1,8 @@
-name: generate languages data
+name: generate contributions data
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "10 6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -24,10 +24,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: generate-languages-svg
-        run: python .github/scripts/generate_languages.py
+      - name: generate-contributions-svg
+        run: python .github/scripts/generate_contributions.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          LANG_TOKEN: ${{ secrets.LANG_TOKEN }}
 
       - name: Checkout output branch
         uses: actions/checkout@v4
@@ -37,15 +38,15 @@ jobs:
 
       - name: Copy SVG and push
         run: |
-          cp dist/github-languages.svg output-branch/github-languages.svg
+          cp dist/github-contributions.svg output-branch/github-contributions.svg
           cd output-branch
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-languages.svg
+          git add github-contributions.svg
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to push"
           else
-            git commit -m "Update github-languages.svg"
+            git commit -m "Update github-contributions.svg"
             git pull --rebase origin output
             git push
           fi
