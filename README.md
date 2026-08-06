@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  <em>Estudiante de Ingeniería de Sistemas · Apasionado por el backend y soluciones tecnológicas</em>
+  <em>Estudiante de Ingeniería de Sistemas · Apasionado por sistemas y soluciones tecnológicas</em>
 </p>
 
 <br>
@@ -22,8 +22,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Poppins&size=38&pause=800&color=C9D1D9&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Backend+%26+Soluciones+Tecnol%C3%B3gicas">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=38&pause=800&color=24292F&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Backend+%26+Soluciones+Tecnol%C3%B3gicas">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Poppins&size=38&pause=800&color=C9D1D9&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Sistemas+%26+Soluciones+Tecnol%C3%B3gicas">
+    <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=38&pause=800&color=24292F&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Sistemas+%26+Soluciones+Tecnol%C3%B3gicas">
   </picture>
 </div>
 
@@ -177,11 +177,11 @@
 <br>
 
 <div align="center">
-  <div style="display:inline-block; background:rgba(108,92,231,0.08); border:1px solid rgba(108,92,231,0.25); border-radius:20px; padding:24px 36px; margin:8px auto;">
+  <div style="display:inline-block; text-align:center; background:rgba(108,92,231,0.08); border:1px solid rgba(108,92,231,0.25); border-radius:20px; padding:28px 36px; margin:8px auto;">
 
-    <h3 style="font-family:'Segoe UI',Arial,sans-serif; color:#6C5CE7; font-size:26px; font-weight:700; font-variant:small-caps; letter-spacing:1px; margin:0 0 6px 0;">
+    <div style="font-family:'Segoe UI',Arial,sans-serif; color:#6C5CE7; font-size:26px; font-weight:700; font-variant:small-caps; letter-spacing:1px; margin:0 0 6px 0;">
       📫 ¡Hablemos!
-    </h3>
+    </div>
     <p style="font-family:'Segoe UI',Arial,sans-serif; color:#57606A; font-size:15px; font-weight:400; margin:0 0 16px 0;">
       ⚡ Abierto a prácticas y oportunidades laborales
     </p>

@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="110" viewBox="0 0 300 110" role="img" aria-label="escribiendo...">
-  <title>escribiendo...</title>
-  <style>
-    .muted { fill: #8B949E; font-family: 'Segoe UI', system-ui, sans-serif; }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="95" viewBox="0 0 300 95" role="img" aria-label="indicador de escritura">
+  <title>...</title>
   <defs>
     <filter id="dotGlow" x="-120%" y="-120%" width="340%" height="340%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge>
         <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
@@ -13,22 +10,20 @@
     </filter>
   </defs>
 
-  <rect x="6" y="6" width="288" height="98" rx="14" fill="#0D1117" stroke="#30363D"/>
+  <rect x="6" y="6" width="288" height="83" rx="14" fill="#0D1117" stroke="#30363D"/>
 
   <g filter="url(#dotGlow)">
-    <circle cx="123" cy="46" r="9" fill="#6C5CE7">
+    <circle cx="122" cy="47" r="11" fill="#6C5CE7">
       <animate attributeName="opacity" values="0.15;1;1;0.15" keyTimes="0;0.2;0.7;0.9" dur="1.8s" begin="0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" keyTimes="0;0.5;1" dur="1.8s" begin="0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" keyTimes="0;0.5;1" dur="1.8s" begin="0s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="150" cy="46" r="9" fill="#6C5CE7">
+    <circle cx="150" cy="47" r="11" fill="#6C5CE7">
       <animate attributeName="opacity" values="0.15;1;1;0.15" keyTimes="0;0.2;0.7;0.9" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" keyTimes="0;0.5;1" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" keyTimes="0;0.5;1" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="177" cy="46" r="9" fill="#6C5CE7">
+    <circle cx="178" cy="47" r="11" fill="#6C5CE7">
       <animate attributeName="opacity" values="0.15;1;1;0.15" keyTimes="0;0.2;0.7;0.9" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" keyTimes="0;0.5;1" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" keyTimes="0;0.5;1" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
     </circle>
   </g>
-
-  <text x="150" y="82" text-anchor="middle" font-size="13" class="muted">escribiendo...</text>
 </svg>
