@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" role="img" aria-label="Software & Hardware">
+  <title>Software &amp; Hardware</title>
+  <style>
+    .banner-glow { filter: drop-shadow(0 0 6px rgba(108, 92, 231, 0.55)); }
+    .banner-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 46px; font-weight: 700; letter-spacing: 1px; text-anchor: middle; }
+  </style>
+
+  <defs>
+    <linearGradient id="bannerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="0.33" stop-color="#736BE4"/>
+      <stop offset="0.66" stop-color="#4035CE"/>
+      <stop offset="1" stop-color="#6C5CE7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="784" height="104" rx="16" fill="#0D1117" stroke="#30363D"/>
+
+  <rect x="52" y="57" width="24" height="6" rx="3" fill="#6C5CE7" fill-opacity="0.35"/>
+  <rect x="724" y="57" width="24" height="6" rx="3" fill="#6C5CE7" fill-opacity="0.35"/>
+
+  <text x="400" y="72" class="banner-text banner-glow" fill="url(#bannerGrad)">Software &amp; Hardware</text>
+
+  <rect x="340" y="88" width="120" height="3" rx="1.5" fill="url(#bannerGrad)"/>
+</svg>

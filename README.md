@@ -15,6 +15,12 @@
 <br>
 
 <div align="center">
+  <img src="assets/banner.svg" width="750">
+</div>
+
+<br>
+
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Poppins&size=38&pause=800&color=C9D1D9&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Backend+%26+Soluciones+Tecnol%C3%B3gicas">
     <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=38&pause=800&color=24292F&center=true&vCenter=true&width=800&lines=Hernan+Felix;Software+%26+Hardware;Backend+%26+Soluciones+Tecnol%C3%B3gicas">
@@ -41,12 +47,6 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/typing-dots.svg" width="140">
-</div>
-
-<br>
-
 <p align="center">
   <img
     align="right"
@@ -66,25 +66,7 @@
 <br>
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
-      </td>
-      <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Mi Stack</h2>
-      </td>
-      <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="assets/skill-bars.svg" width="440">
+  <img src="assets/typing-dots.svg" width="140">
 </div>
 
 <br>
@@ -123,13 +105,19 @@
 <br>
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=3" />
+</div>
+
+<br>
+
+<div align="center">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
         <img src="assets/about.gif" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
-        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Lenguajes Más Usados</h2>
+        <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Mi Stack</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
         <img src="assets/about.gif" width="40">
@@ -141,7 +129,7 @@
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HernanFx/HernanFx/output/github-languages.svg?v=3" />
+  <img src="assets/skill-bars.svg" width="440">
 </div>
 
 <br>
