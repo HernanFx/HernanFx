@@ -168,10 +168,12 @@
 <br>
 
 <div align="center">
-  <div style="display:inline-block; text-align:center; background:rgba(108,92,231,0.08); border:1px solid rgba(108,92,231,0.25); border-radius:20px; padding:28px 40px; margin:8px auto;">
-    <div style="font-family:'Segoe UI',Arial,sans-serif; color:#6C5CE7; font-size:28px; font-weight:700; font-variant:small-caps; letter-spacing:1px; margin:0 0 20px 0;">📫 ¡Hablemos!</div>
-    <a href="https://github.com/HernanFx" target="_blank" aria-label="GitHub" style="display:inline-block; width:72px; height:72px; border-radius:50%; background:#181717; line-height:72px; text-align:center; margin:14px;"><img src="assets/logo-github.svg" width="36" height="36" alt="" style="vertical-align:middle;"></a>
-    <a href="https://linkedin.com/in/HernanFx" target="_blank" aria-label="LinkedIn" style="display:inline-block; width:72px; height:72px; border-radius:50%; background:#0A66C2; line-height:72px; text-align:center; margin:14px;"><img src="assets/logo-linkedin.svg" width="36" height="36" alt="" style="vertical-align:middle;"></a>
-    
-  </div>
+  <div align="center">📫 ¡Hablemos!</div>
+  <table border="0" cellpadding="18">
+    <tr>
+      <td><a href="https://github.com/HernanFx" target="_blank"><img src="assets/logo-github.svg" width="64" height="64" alt="GitHub"></a></td>
+      <td><a href="https://linkedin.com/in/HernanFx" target="_blank"><img src="assets/logo-linkedin.svg" width="64" height="64" alt="LinkedIn"></a></td>
+      <td></td>
+    </tr>
+  </table>
 </div>
