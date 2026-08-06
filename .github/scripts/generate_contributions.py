@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import datetime
 import urllib.request
@@ -111,6 +112,62 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
         return None
 
 
+def fetch_public_days():
+    """Fallback: parse the public HTML contributions page (same data source as snk).
+    Returns a list of {date, contributionCount, level} in DOM order, or None."""
+    url = f"https://github.com/users/{USERNAME}/contributions"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            html = r.read().decode("utf-8")
+    except Exception as e:
+        print(f"  ERROR HTML fetch -> {e}")
+        return None
+
+    # Calendar cells: <td> tags carrying BOTH data-date and data-level.
+    # Scoping to <td> excludes the legend divs (contribution-graph-legend-level-*),
+    # which also carry data-level but are NOT calendar cells.
+    tds = re.findall(r"<td[^>]*>", html)
+    cells = [t for t in tds if "data-date" in t and "data-level" in t]
+    dates = [re.search(r'data-date="([^"]+)"', t).group(1) for t in cells]
+    levels = [int(re.search(r'data-level="([0-9])"', t).group(1)) for t in cells]
+
+    # Real daily counts: the page emits one <tool-tip> per cell in the same
+    # DOM order, e.g. "5 contributions on September 12th." or
+    # "No contributions on August 3rd." (cells have no aria-label).
+    tips = re.findall(r"<tool-tip[^>]*>([^<]*)</tool-tip>", html)
+    print(f"  HTML cells: dates={len(dates)} levels={len(levels)} tooltips={len(tips)}")
+    if not dates or not (len(dates) == len(levels) == len(tips)):
+        print("  ERROR: cell/level/tooltip count mismatch — HTML structure changed")
+        return None
+
+    days = []
+    for date, lvl, tip in zip(dates, levels, tips):
+        m = re.search(r"(\d+)\s+contributions?", tip)
+        count = int(m.group(1)) if m else 0
+        days.append({"date": date, "contributionCount": count, "level": lvl})
+    return days
+
+
+def group_weeks(days):
+    """Group days into Sunday-Saturday week columns, ordered chronologically.
+    Works regardless of DOM order (GitHub's HTML calendar is row-major:
+    all Sundays first, then Mondays, etc.)."""
+    by_week = {}
+    for day in days:
+        d = datetime.date.fromisoformat(day["date"])
+        sunday = d - datetime.timedelta(days=(d.weekday() + 1) % 7)
+        by_week.setdefault(sunday, []).append(day)
+    weeks = []
+    for sunday in sorted(by_week):
+        col = sorted(by_week[sunday], key=lambda x: x["date"])
+        weeks.append({"contributionDays": col})
+    return weeks
+
+
 def build_svg(cal):
     total = cal.get("totalContributions", 0)
     weeks = cal.get("weeks", [])
@@ -144,7 +201,11 @@ def build_svg(cal):
             row = (d.weekday() + 1) % 7  # Sunday-first grid: Lun=1 ... Dom=0
             rows_done.add(row)
             count = day.get("contributionCount", 0)
-            lvl = LEVEL_NAMES.get(day.get("level"), 0)
+            lvl = day.get("level")
+            if isinstance(lvl, str):
+                lvl = LEVEL_NAMES.get(lvl, 0)
+            if not isinstance(lvl, int) or lvl < 0 or lvl > 4:
+                lvl = 0
             if count == 0:
                 lvl = 0
             color = LEVEL_COLORS[lvl]
@@ -207,6 +268,15 @@ def main():
 
     print("Fetching contribution calendar (GraphQL)...")
     cal = get_calendar()
+
+    if not cal:
+        print("GraphQL unavailable, using public HTML endpoint (no private contributions)")
+        days = fetch_public_days()
+        if days:
+            cal = {
+                "totalContributions": sum(d["contributionCount"] for d in days),
+                "weeks": group_weeks(days),
+            }
 
     if not cal:
         print("No contribution data available, writing fallback SVG")
