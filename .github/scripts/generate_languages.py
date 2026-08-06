@@ -63,7 +63,16 @@ def generate_svg(languages):
     if total == 0:
         return generate_empty_svg()
 
+    # Filter noise: keep only languages with >= 1% of total bytes
     items = sorted(languages.items(), key=lambda x: x[1], reverse=True)
+    items = [(name, count) for name, count in items if (count / total) * 100 >= 1.0]
+    # Show at most the 6 languages with the most bytes
+    items = items[:6]
+
+    if not items:
+        return generate_empty_svg()
+
+    # Recalculate proportions over the filtered set so bars stay clean
     total_display = sum(v for _, v in items)
 
     rows = ""
