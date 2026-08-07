@@ -16,7 +16,7 @@
   <text x="10" y="100" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">Kotlin</text>
   <rect x="145" y="92" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="92" width="12" height="10" rx="5" ry="5" fill="#3c33bb" />
-  <text x="375" y="101" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">5.9%</text>
+  <text x="375" y="101" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">5.8%</text>
   <text x="10" y="128" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">HTML</text>
   <rect x="145" y="120" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="120" width="12" height="10" rx="5" ry="5" fill="#5349df" />
@@ -28,7 +28,7 @@
   <text x="10" y="184" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">PHP</text>
   <rect x="145" y="176" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="176" width="9" height="10" rx="5" ry="5" fill="#4035ce" />
-  <text x="375" y="185" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">4.4%</text>
+  <text x="375" y="185" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">4.3%</text>
   <text x="10" y="212" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">PLpgSQL</text>
   <rect x="145" y="204" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="204" width="6" height="10" rx="5" ry="5" fill="#736be4" />
