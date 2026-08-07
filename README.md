@@ -29,7 +29,7 @@
 <br>
 
 <div align="center">
-  <img src="assets/about-terminal.svg?v=2" width="700">
+  <img src="assets/about-terminal.svg?v=2" width="760">
 </div>
 
 <br>
@@ -47,7 +47,7 @@
 <br>
 
 <div align="center">
-  <img src="assets/typing-local.svg" width="700">
+  <img src="assets/typing-local.svg?v=2" width="740">
 </div>
 
 <br>
@@ -158,7 +158,5 @@
 <br>
 
 <div align="center">
-  <div align="center">📫 ¡Hablemos!</div>
-  <br>
   <a href="https://github.com/HernanFx" target="_blank"><img src="assets/logo-github.svg?v=2" width="64" height="64" alt="GitHub"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/HernanFx" target="_blank"><img src="assets/logo-linkedin.svg?v=2" width="64" height="64" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
