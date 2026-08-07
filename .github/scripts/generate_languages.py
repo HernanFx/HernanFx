@@ -80,8 +80,8 @@ def generate_svg(languages):
     # Filter noise: keep only languages with >= 1% of total bytes
     items = sorted(languages.items(), key=lambda x: x[1], reverse=True)
     items = [(name, count) for name, count in items if (count / total) * 100 >= 1.0]
-    # Show at most the 6 languages with the most bytes
-    items = items[:6]
+    # Show at most the 12 languages with the most bytes
+    items = items[:12]
 
     if not items:
         return generate_empty_svg()
