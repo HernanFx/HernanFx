@@ -53,11 +53,15 @@ def req(url):
 def get_repos():
     repos = []
     page = 1
-    # With LANG_TOKEN we can also see private repos (type=owner includes them).
-    # Without it, keep type=public: unauthenticated requests only see public.
-    repo_type = "owner" if os.environ.get("LANG_TOKEN") else "public"
     while True:
-        data = req(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type={repo_type}")
+        # /user/repos (authenticated) DOES return private repos with a
+        # fine-grained token, while /users/{login}/repos does not (verified
+        # empirically in the contributions DIAG: 17 repos vs 3).
+        # Without a token, fall back to the public endpoint.
+        if TOKEN:
+            data = req(f"https://api.github.com/user/repos?per_page=100&page={page}&type=owner")
+        else:
+            data = req(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type=public")
         if not data:
             break
         repos.extend(data)
