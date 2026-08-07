@@ -4,10 +4,6 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/terminal.svg" width="580">
-</div>
-
 <p align="center">
   <em>Estudiante de Ingeniería de Sistemas · Apasionado por sistemas y soluciones tecnológicas</em>
 </p>
@@ -32,21 +28,9 @@
 
 <br>
 
-<p align="center">
-  <img
-    align="right"
-    src="assets/about.gif"
-    width="280"
-    alt="Coding GIF"
-  />
-  👨‍💻 Estudiante de Ingeniería de Sistemas apasionado por sistemas y soluciones tecnológicas<br>
-  ⚙️ Interesado en backend, estructuras de datos y bases de datos<br>
-  📚 Siempre aprendiendo nuevas tecnologías y frameworks<br>
-  🧠 Apasionado por la resolución de problemas con nuevas tecnologías<br>
-  🚀 Enfocado en crear sistemas eficientes y escalables<br>
-  💼 Abierto a oportunidades de trabajo o prácticas<br>
-  📚 Actualmente: Python · C++ · Node.js · PostgreSQL
-</p>
+<div align="center">
+  <img src="assets/about-terminal.svg" width="640">
+</div>
 
 <br>
 
