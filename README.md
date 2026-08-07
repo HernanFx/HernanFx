@@ -28,17 +28,14 @@
 
 <br>
 
-<p align="center">
-  <img
-    align="right"
-    src="assets/about.gif"
-    width="280"
-    alt="Coding GIF"
-  />
-</p>
-
 <div align="center">
   <img src="assets/about-terminal.svg" width="640">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/about.gif" width="350" alt="Coding GIF">
 </div>
 
 <br>
