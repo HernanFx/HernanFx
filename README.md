@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/gradient-pulse.svg" width="420">
+  <img src="assets/gradient-pulse.svg?v=2" width="460">
 </div>
 
 <br>
@@ -14,13 +14,13 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
         <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 30px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Sobre Mí</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
     </tr>
   </table>
@@ -29,13 +29,13 @@
 <br>
 
 <div align="center">
-  <img src="assets/about-terminal.svg" width="640">
+  <img src="assets/about-terminal.svg?v=2" width="700">
 </div>
 
 <br>
 
 <div align="center">
-  <img src="assets/about.gif" width="350" alt="Coding GIF">
+  <img src="assets/about.gif?v=2" width="350" alt="Coding GIF">
 </div>
 
 <br>
@@ -56,13 +56,13 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
         <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Lenguajes y Herramientas</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
     </tr>
   </table>
@@ -95,13 +95,13 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
         <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Mi Stack</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
     </tr>
   </table>
@@ -119,13 +119,13 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
         <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Contribuciones</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
     </tr>
   </table>
@@ -143,13 +143,13 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
       <td style="border: none; padding-right: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
       <td style="border: none; vertical-align: middle;">
         <h2 style="font-family: 'Arial Black', Arial, sans-serif; font-size: 25px; font-weight: 900; letter-spacing: 1px; color: #6C5CE7; margin: 0; font-variant: small-caps;">Contacto</h2>
       </td>
       <td style="border: none; padding-left: 12px; vertical-align: middle;">
-        <img src="assets/about.gif" width="40">
+        <img src="assets/about.gif?v=2" width="40">
       </td>
     </tr>
   </table>

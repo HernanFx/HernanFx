@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-label="HernanFx">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="260" viewBox="0 0 480 260" role="img" aria-label="HernanFx">
   <title>HernanFx</title>
   <style>
-    .title-text { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 74px; font-weight: 700; text-anchor: middle; }
+    .title-text { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 92px; font-weight: 700; text-anchor: middle; }
   </style>
 
   <defs>
@@ -18,10 +18,10 @@
     </linearGradient>
   </defs>
 
-  <rect x="8" y="10" width="464" height="180" rx="16" fill="#0D1117" stroke="#30363D"/>
+  <rect x="8" y="10" width="464" height="240" rx="16" fill="#0D1117" stroke="#30363D"/>
 
-  <text x="240" y="100" class="title-text" filter="url(#softGlow)" opacity="0.7" fill="#6C5CE7">HernanFx</text>
-  <text x="240" y="100" class="title-text" fill="url(#grad)">HernanFx</text>
+  <text x="240" y="128" class="title-text" filter="url(#softGlow)" opacity="0.7" fill="#6C5CE7">HernanFx</text>
+  <text x="240" y="128" class="title-text" fill="url(#grad)">HernanFx</text>
 
-  <text x="240" y="155" text-anchor="middle" font-size="28" fill="#8B949E" font-family="'Segoe UI', system-ui, sans-serif" letter-spacing="5" word-spacing="12">SOFTWARE &amp; HARDWARE</text>
+  <text x="240" y="190" text-anchor="middle" font-size="34" fill="#8B949E" font-family="'Segoe UI', system-ui, sans-serif" letter-spacing="5" word-spacing="12">SOFTWARE &amp; HARDWARE</text>
 </svg>
