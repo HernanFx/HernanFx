@@ -2,9 +2,90 @@
   <title>Hernan Felix</title>
   <style>
     .type-line { font-family: 'Segoe UI', monospace; font-size: 40px; fill: #C9D1D9; }
+    .glow-copy { filter: url(#softGlow); opacity: 0.45; }
   </style>
 
+  <defs>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
   <rect x="8" y="8" width="834" height="154" rx="16" fill="#0D1117" stroke="#30363D"/>
+
+  <text x="425" y="97" text-anchor="middle" fill="#6C5CE7" class="type-line glow-copy">
+    <tspan>H<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0240;0.0241;0.1280;0.1281;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>e<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0320;0.0321;0.1336;0.1337;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>r<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0400;0.0401;0.1392;0.1393;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>n<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0480;0.0481;0.1448;0.1449;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>a<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0560;0.0561;0.1504;0.1505;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>n<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0640;0.0641;0.1560;0.1561;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan> <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0720;0.0721;0.1616;0.1617;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>F<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0800;0.0801;0.1672;0.1673;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>e<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0880;0.0881;0.1728;0.1729;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>l<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0960;0.0961;0.1784;0.1785;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>i<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1040;0.1041;0.1840;0.1841;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>x<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1120;0.1121;0.1896;0.1897;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+  </text>
+
+  <text x="425" y="97" text-anchor="middle" fill="#6C5CE7" class="type-line glow-copy">
+    <tspan>S<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2080;0.2081;0.3680;0.3681;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>o<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2160;0.2161;0.3736;0.3737;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>f<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2240;0.2241;0.3792;0.3793;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>t<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2320;0.2321;0.3848;0.3849;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>w<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2400;0.2401;0.3904;0.3905;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>a<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2480;0.2481;0.3960;0.3961;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>r<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2560;0.2561;0.4016;0.4017;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>e<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2640;0.2641;0.4072;0.4073;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan> <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2720;0.2721;0.4128;0.4129;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>&amp;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2800;0.2801;0.4184;0.4185;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan> <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2880;0.2881;0.4240;0.4241;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>H<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2960;0.2961;0.4296;0.4297;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>a<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3040;0.3041;0.4352;0.4353;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>r<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3120;0.3121;0.4408;0.4409;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>d<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3200;0.3201;0.4464;0.4465;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>w<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3280;0.3281;0.4520;0.4521;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>a<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3360;0.3361;0.4576;0.4577;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>r<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3440;0.3441;0.4632;0.4633;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>e<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3520;0.3521;0.4688;0.4689;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+  </text>
+
+  <text x="425" y="97" text-anchor="middle" fill="#6C5CE7" class="type-line glow-copy">
+    <tspan>S<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4880;0.4881;0.7680;0.7681;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>i<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4960;0.4961;0.7736;0.7737;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>s<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5040;0.5041;0.7792;0.7793;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>t<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5120;0.5121;0.7848;0.7849;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>e<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5200;0.5201;0.7904;0.7905;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>m<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5280;0.5281;0.7960;0.7961;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>a<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5360;0.5361;0.8016;0.8017;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>s<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5440;0.5441;0.8072;0.8073;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan> <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5520;0.5521;0.8128;0.8129;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>&amp;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5600;0.5601;0.8184;0.8185;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan> <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5680;0.5681;0.8240;0.8241;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>S<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5760;0.5761;0.8296;0.8297;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>o<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5840;0.5841;0.8352;0.8353;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>l<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5920;0.5921;0.8408;0.8409;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>u<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6001;0.8464;0.8465;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>c<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6080;0.6081;0.8520;0.8521;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>i<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6160;0.6161;0.8576;0.8577;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>o<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6240;0.6241;0.8632;0.8633;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>n<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6320;0.6321;0.8688;0.8689;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>e<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6400;0.6401;0.8744;0.8745;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>s<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6480;0.6481;0.8800;0.8801;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan> <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6560;0.6561;0.8856;0.8857;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>T<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6640;0.6641;0.8912;0.8913;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>e<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6720;0.6721;0.8968;0.8969;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>c<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6800;0.6801;0.9024;0.9025;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>n<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6880;0.6881;0.9080;0.9081;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>o<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6960;0.6961;0.9136;0.9137;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>l<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7040;0.7041;0.9192;0.9193;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>ó<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7120;0.7121;0.9248;0.9249;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>g<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7200;0.7201;0.9304;0.9305;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>i<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7280;0.7281;0.9360;0.9361;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>c<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7360;0.7361;0.9416;0.9417;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>a<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7440;0.7441;0.9472;0.9473;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+    <tspan>s<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7520;0.7521;0.9528;0.9529;1" dur="12.5s" repeatCount="indefinite"/></tspan>
+  </text>
 
   <text x="425" y="97" text-anchor="middle" class="type-line">
     <tspan>H<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0240;0.0241;0.1280;0.1281;1" dur="12.5s" repeatCount="indefinite"/></tspan>
