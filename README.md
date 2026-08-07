@@ -39,7 +39,7 @@
     width="280"
     alt="Coding GIF"
   />
-  👨‍💻 Estudiante de Ingeniería de Sistemas apasionado por el desarrollo de software<br>
+  👨‍💻 Estudiante de Ingeniería de Sistemas apasionado por sistemas y soluciones tecnológicas<br>
   ⚙️ Interesado en backend, estructuras de datos y bases de datos<br>
   📚 Siempre aprendiendo nuevas tecnologías y frameworks<br>
   🧠 Apasionado por la resolución de problemas con nuevas tecnologías<br>
