@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="760" height="400" viewBox="0 0 760 400" role="img" aria-label="Mi Stack - TypeScript, CSS, HTML, JSX, JSON y PostgreSQL">
+  <title>Mi Stack</title>
+  <style>
+    .head  { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 14px; fill: #736BE4; letter-spacing: 3px; }
+    .label { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 15px; font-weight: 600; text-anchor: middle; }
+    .gI { filter: drop-shadow(0 0 7px rgba(125,211,232,0.45)); }
+    .gO { filter: drop-shadow(0 0 7px rgba(253,230,138,0.40)); }
+    .gT { filter: drop-shadow(0 0 7px rgba(196,181,253,0.45)); }
+    .gS { filter: drop-shadow(0 0 7px rgba(134,239,172,0.40)); }
+    .gZ { filter: drop-shadow(0 0 7px rgba(245,168,168,0.40)); }
+    .gL { filter: drop-shadow(0 0 7px rgba(253,186,116,0.45)); }
+  </style>
+
+  <defs>
+    <!-- bloque base: hereda el fill desde el use, lleva bisel claro -->
+    <g id="blk">
+      <rect width="30" height="30" rx="5" fill="inherit" stroke="#0B0F17" stroke-width="1.5"/>
+      <rect x="3" y="3" width="24" height="9" rx="4" fill="#FFFFFF" opacity="0.12"/>
+    </g>
+    <!-- fantasma: contorno sutil de la posicion final de cada pieza -->
+    <g id="ghost">
+      <rect width="30" height="30" rx="5" fill="none" stroke="inherit" stroke-width="1.5" opacity="0.30"/>
+    </g>
+  </defs>
+
+  <!-- tarjeta acorde al perfil -->
+  <rect x="10" y="10" width="740" height="380" rx="16" fill="#0D1117" stroke="#30363D"/>
+  <text x="34" y="44" class="head">MI STACK</text>
+
+  <!-- fantasmas de destino -->
+  <g stroke="#7DD3E8">
+    <use href="#ghost" x="156" y="165"/><use href="#ghost" x="190" y="165"/><use href="#ghost" x="224" y="165"/><use href="#ghost" x="258" y="165"/>
+  </g>
+  <g stroke="#FDE68A">
+    <use href="#ghost" x="348" y="131"/><use href="#ghost" x="382" y="131"/><use href="#ghost" x="348" y="165"/><use href="#ghost" x="382" y="165"/>
+  </g>
+  <g stroke="#C4B5FD">
+    <use href="#ghost" x="486" y="131"/><use href="#ghost" x="520" y="131"/><use href="#ghost" x="554" y="131"/><use href="#ghost" x="520" y="165"/>
+  </g>
+  <g stroke="#86EFAC">
+    <use href="#ghost" x="173" y="291"/><use href="#ghost" x="207" y="291"/><use href="#ghost" x="139" y="325"/><use href="#ghost" x="173" y="325"/>
+  </g>
+  <g stroke="#F5A8A8">
+    <use href="#ghost" x="312" y="291"/><use href="#ghost" x="346" y="291"/><use href="#ghost" x="346" y="325"/><use href="#ghost" x="380" y="325"/>
+  </g>
+  <g stroke="#FDBA74">
+    <use href="#ghost" x="486" y="291"/><use href="#ghost" x="520" y="291"/><use href="#ghost" x="554" y="291"/><use href="#ghost" x="554" y="325"/>
+  </g>
+
+  <!-- PIEZA I - TypeScript -->
+  <g class="gI" fill="#7DD3E8">
+    <animateTransform attributeName="transform" type="translate" calcMode="spline" values="0 -320; 0 -320; 0 4; 0 0; 0 0; 0 -320" keyTimes="0;0.0333;0.1013;0.1183;0.858;0.9" keySplines="0 0 1 1;0.55 0 1 0.45;0.33 0 0.67 0;0 0 1 1;0.55 0 1 0.45" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0333;0.0533;0.858;0.9;1" dur="12s" repeatCount="indefinite"/>
+    <use href="#blk" x="156" y="165"/><use href="#blk" x="190" y="165"/><use href="#blk" x="224" y="165"/><use href="#blk" x="258" y="165"/>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0;0.5167;0.5333;0.55;0.5667;0.5833;0.6;0.6167;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="156" y="165" width="132" height="30" rx="5" fill="#FFFFFF" opacity="0.40"/>
+    </g>
+  </g>
+
+  <!-- PIEZA O - CSS -->
+  <g class="gO" fill="#FDE68A">
+    <animateTransform attributeName="transform" type="translate" calcMode="spline" values="0 -320; 0 -320; 0 4; 0 0; 0 0; 0 -320" keyTimes="0;0.1083;0.1763;0.1933;0.858;0.9" keySplines="0 0 1 1;0.55 0 1 0.45;0.33 0 0.67 0;0 0 1 1;0.55 0 1 0.45" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1083;0.1283;0.858;0.9;1" dur="12s" repeatCount="indefinite"/>
+    <use href="#blk" x="348" y="131"/><use href="#blk" x="382" y="131"/><use href="#blk" x="348" y="165"/><use href="#blk" x="382" y="165"/>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0;0.5167;0.5333;0.55;0.5667;0.5833;0.6;0.6167;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="348" y="131" width="64" height="64" rx="5" fill="#FFFFFF" opacity="0.40"/>
+    </g>
+  </g>
+
+  <!-- PIEZA T - HTML -->
+  <g class="gT" fill="#C4B5FD">
+    <animateTransform attributeName="transform" type="translate" calcMode="spline" values="0 -320; 0 -320; 0 4; 0 0; 0 0; 0 -320" keyTimes="0;0.1833;0.2513;0.2683;0.858;0.9" keySplines="0 0 1 1;0.55 0 1 0.45;0.33 0 0.67 0;0 0 1 1;0.55 0 1 0.45" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1833;0.2033;0.858;0.9;1" dur="12s" repeatCount="indefinite"/>
+    <use href="#blk" x="486" y="131"/><use href="#blk" x="520" y="131"/><use href="#blk" x="554" y="131"/><use href="#blk" x="520" y="165"/>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0;0.5167;0.5333;0.55;0.5667;0.5833;0.6;0.6167;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="486" y="131" width="98" height="64" rx="5" fill="#FFFFFF" opacity="0.40"/>
+    </g>
+  </g>
+
+  <!-- PIEZA S - JSX -->
+  <g class="gS" fill="#86EFAC">
+    <animateTransform attributeName="transform" type="translate" calcMode="spline" values="0 -320; 0 -320; 0 4; 0 0; 0 0; 0 -320" keyTimes="0;0.2583;0.3263;0.3433;0.858;0.9" keySplines="0 0 1 1;0.55 0 1 0.45;0.33 0 0.67 0;0 0 1 1;0.55 0 1 0.45" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2583;0.2783;0.858;0.9;1" dur="12s" repeatCount="indefinite"/>
+    <use href="#blk" x="173" y="291"/><use href="#blk" x="207" y="291"/><use href="#blk" x="139" y="325"/><use href="#blk" x="173" y="325"/>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0;0.5167;0.5333;0.55;0.5667;0.5833;0.6;0.6167;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="139" y="291" width="98" height="34" rx="5" fill="#FFFFFF" opacity="0.40"/>
+    </g>
+  </g>
+
+  <!-- PIEZA Z - JSON -->
+  <g class="gZ" fill="#F5A8A8">
+    <animateTransform attributeName="transform" type="translate" calcMode="spline" values="0 -320; 0 -320; 0 4; 0 0; 0 0; 0 -320" keyTimes="0;0.3333;0.4013;0.4183;0.858;0.9" keySplines="0 0 1 1;0.55 0 1 0.45;0.33 0 0.67 0;0 0 1 1;0.55 0 1 0.45" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.3533;0.858;0.9;1" dur="12s" repeatCount="indefinite"/>
+    <use href="#blk" x="312" y="291"/><use href="#blk" x="346" y="291"/><use href="#blk" x="346" y="325"/><use href="#blk" x="380" y="325"/>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0;0.5167;0.5333;0.55;0.5667;0.5833;0.6;0.6167;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="312" y="291" width="98" height="34" rx="5" fill="#FFFFFF" opacity="0.40"/>
+    </g>
+  </g>
+
+  <!-- PIEZA L - PostgreSQL -->
+  <g class="gL" fill="#FDBA74">
+    <animateTransform attributeName="transform" type="translate" calcMode="spline" values="0 -320; 0 -320; 0 4; 0 0; 0 0; 0 -320" keyTimes="0;0.4083;0.4763;0.4933;0.858;0.9" keySplines="0 0 1 1;0.55 0 1 0.45;0.33 0 0.67 0;0 0 1 1;0.55 0 1 0.45" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4083;0.4283;0.858;0.9;1" dur="12s" repeatCount="indefinite"/>
+    <use href="#blk" x="486" y="291"/><use href="#blk" x="520" y="291"/><use href="#blk" x="554" y="291"/><use href="#blk" x="554" y="325"/>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0;0.5167;0.5333;0.55;0.5667;0.5833;0.6;0.6167;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="486" y="291" width="98" height="34" rx="5" fill="#FFFFFF" opacity="0.40"/>
+    </g>
+  </g>
+
+  <!-- etiquetas por tecnologia -->
+  <text x="222" y="222" class="label" fill="#7DD3E8">TypeScript</text>
+  <text x="380" y="222" class="label" fill="#FDE68A">CSS</text>
+  <text x="520" y="222" class="label" fill="#C4B5FD">HTML</text>
+  <text x="188" y="352" class="label" fill="#86EFAC">JSX</text>
+  <text x="361" y="352" class="label" fill="#F5A8A8">JSON</text>
+  <text x="535" y="352" class="label" fill="#FDBA74">PostgreSQL</text>
+</svg>

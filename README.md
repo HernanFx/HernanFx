@@ -111,7 +111,7 @@
 <br>
 
 <div align="center">
-  <img src="assets/skill-bars.svg" width="440">
+  <img src="assets/stack-tetris.svg?v=1" width="740" alt="Mi Stack en tetris: TypeScript, CSS, HTML, JSX, JSON, PostgreSQL">
 </div>
 
 <br>
