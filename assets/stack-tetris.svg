@@ -90,10 +90,10 @@
   </rect>
 
   <!-- etiquetas compactas DENTRO del cuadro -->
-  <text x="195" y="245" class="label" fill="#9B8FF8">TS</text>
-  <text x="250" y="245" class="label" fill="#8B7CF7">CSS</text>
-  <text x="305" y="245" class="label" fill="#7C6FF0">HTML</text>
-  <text x="360" y="245" class="label" fill="#6C5CE7">JSX</text>
-  <text x="415" y="245" class="label" fill="#5A4BD6">JSON</text>
-  <text x="480" y="245" class="label" fill="#4A3FBF">PostgreSQL</text>
+  <text x="150" y="245" class="label" fill="#9B8FF8">TS</text>
+  <text x="202" y="245" class="label" fill="#8B7CF7">CSS</text>
+  <text x="254" y="245" class="label" fill="#7C6FF0">HTML</text>
+  <text x="306" y="245" class="label" fill="#6C5CE7">JSX</text>
+  <text x="358" y="245" class="label" fill="#5A4BD6">JSON</text>
+  <text x="410" y="245" class="label" fill="#4A3FBF">PostgreSQL</text>
 </svg>
