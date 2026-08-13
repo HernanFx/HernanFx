@@ -3,46 +3,46 @@
   
   <text x="10" y="16" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">TypeScript</text>
   <rect x="145" y="8" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="8" width="90" height="10" rx="5" ry="5" fill="#736be4" />
-  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">41.0%</text>
+  <rect x="145" y="8" width="88" height="10" rx="5" ry="5" fill="#736be4" />
+  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">40.4%</text>
   <text x="10" y="44" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">Jupyter Notebook</text>
   <rect x="145" y="36" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="36" width="39" height="10" rx="5" ry="5" fill="#736be4" />
-  <text x="375" y="45" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">17.8%</text>
+  <rect x="145" y="36" width="38" height="10" rx="5" ry="5" fill="#736be4" />
+  <text x="375" y="45" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">17.5%</text>
   <text x="10" y="72" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">HTML</text>
   <rect x="145" y="64" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="64" width="22" height="10" rx="5" ry="5" fill="#5349df" />
-  <text x="375" y="73" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">10.3%</text>
+  <rect x="145" y="64" width="23" height="10" rx="5" ry="5" fill="#5349df" />
+  <text x="375" y="73" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">10.6%</text>
   <text x="10" y="100" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">C++</text>
   <rect x="145" y="92" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="92" width="14" height="10" rx="5" ry="5" fill="#4035ce" />
-  <text x="375" y="101" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">6.7%</text>
+  <text x="375" y="101" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">6.6%</text>
   <text x="10" y="128" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">Kotlin</text>
   <rect x="145" y="120" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="120" width="11" height="10" rx="5" ry="5" fill="#3c33bb" />
-  <text x="375" y="129" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">5.4%</text>
+  <text x="375" y="129" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">5.3%</text>
   <text x="10" y="156" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">C</text>
   <rect x="145" y="148" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="148" width="9" height="10" rx="5" ry="5" fill="#4035ce" />
-  <text x="375" y="157" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">4.3%</text>
-  <text x="10" y="184" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">PHP</text>
+  <text x="375" y="157" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">4.2%</text>
+  <text x="10" y="184" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">JavaScript</text>
   <rect x="145" y="176" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="176" width="8" height="10" rx="5" ry="5" fill="#4035ce" />
+  <rect x="145" y="176" width="8" height="10" rx="5" ry="5" fill="#736be4" />
   <text x="375" y="185" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">4.0%</text>
-  <text x="10" y="212" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">JavaScript</text>
+  <text x="10" y="212" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">PHP</text>
   <rect x="145" y="204" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="204" width="7" height="10" rx="5" ry="5" fill="#736be4" />
-  <text x="375" y="213" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">3.5%</text>
+  <rect x="145" y="204" width="8" height="10" rx="5" ry="5" fill="#4035ce" />
+  <text x="375" y="213" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">4.0%</text>
   <text x="10" y="240" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">PLpgSQL</text>
   <rect x="145" y="232" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="232" width="6" height="10" rx="5" ry="5" fill="#736be4" />
   <text x="375" y="241" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">2.9%</text>
   <text x="10" y="268" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">CSS</text>
   <rect x="145" y="260" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="260" width="4" height="10" rx="5" ry="5" fill="#5349df" />
-  <text x="375" y="269" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">2.3%</text>
+  <rect x="145" y="260" width="6" height="10" rx="5" ry="5" fill="#5349df" />
+  <text x="375" y="269" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">2.8%</text>
   <text x="10" y="296" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">EJS</text>
   <rect x="145" y="288" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="288" width="4" height="10" rx="5" ry="5" fill="#736be4" />
+  <rect x="145" y="288" width="3" height="10" rx="5" ry="5" fill="#736be4" />
   <text x="375" y="297" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">1.8%</text>
 </svg>
