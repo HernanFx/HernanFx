@@ -159,5 +159,5 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/HernanFx" target="_blank"><img src="assets/logo-github.svg?v=2" width="64" height="64" alt="GitHub"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/HernanFx" target="_blank"><img src="assets/logo-linkedin.svg?v=2" width="64" height="64" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/HernanFx" target="_blank"><img src="assets/logo-github.svg?v=2" width="64" height="64" alt="GitHub"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/HernanFx" target="_blank"><img src="assets/logo-linkedin.svg?v=2" width="64" height="64" alt="LinkedIn"></a>
 </div>
