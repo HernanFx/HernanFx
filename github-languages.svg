@@ -3,20 +3,20 @@
   
   <text x="10" y="16" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">TypeScript</text>
   <rect x="145" y="8" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="8" width="93" height="10" rx="5" ry="5" fill="#736be4" />
-  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">42.3%</text>
+  <rect x="145" y="8" width="92" height="10" rx="5" ry="5" fill="#736be4" />
+  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">42.0%</text>
   <text x="10" y="44" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">Jupyter Notebook</text>
   <rect x="145" y="36" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="36" width="39" height="10" rx="5" ry="5" fill="#736be4" />
-  <text x="375" y="45" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">18.2%</text>
+  <rect x="145" y="36" width="40" height="10" rx="5" ry="5" fill="#736be4" />
+  <text x="375" y="45" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">18.3%</text>
   <text x="10" y="72" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">HTML</text>
   <rect x="145" y="64" width="220" height="10" rx="5" ry="5" fill="#161b22" />
-  <rect x="145" y="64" width="20" height="10" rx="5" ry="5" fill="#5349df" />
-  <text x="375" y="73" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">9.4%</text>
+  <rect x="145" y="64" width="21" height="10" rx="5" ry="5" fill="#5349df" />
+  <text x="375" y="73" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">9.8%</text>
   <text x="10" y="100" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">C++</text>
   <rect x="145" y="92" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="92" width="14" height="10" rx="5" ry="5" fill="#4035ce" />
-  <text x="375" y="101" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">6.7%</text>
+  <text x="375" y="101" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">6.6%</text>
   <text x="10" y="128" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">Kotlin</text>
   <rect x="145" y="120" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="120" width="11" height="10" rx="5" ry="5" fill="#3c33bb" />
