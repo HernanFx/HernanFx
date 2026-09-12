@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Mi Stack en tetris: TS, CSS, HTML, JSX, JSON, PostgreSQL, React, Node y Git">
   <style>
-    .label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; text-anchor: middle; }
+    .label { 
+      font-family: Arial, sans-serif; 
+      font-size: 14px; 
+      font-weight: normal; 
+      letter-spacing: 0.5px; 
+      text-anchor: middle; 
+    }
   </style>
 
   <defs>
@@ -13,9 +19,6 @@
       <rect x="2" y="2" width="18" height="18" rx="2" fill="#161B22" />
     </pattern>
   </defs>
-
-  <!-- Card compacta -->
-  <rect x="8" y="8" width="544" height="284" rx="14" fill="#0D1117" stroke="#30363D"/>
 
   <!-- Tablero 10x6 estilo snake -->
   <rect x="170" y="40" width="220" height="132" fill="url(#bg-grid)" />
