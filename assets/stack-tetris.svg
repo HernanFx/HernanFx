@@ -1,99 +1,218 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Mi Stack en tetris: TS, CSS, HTML, JSX, JSON y PostgreSQL">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Mi Stack en tetris: TS, CSS, HTML, JSX, JSON, PostgreSQL, React, Node y Git">
   <style>
-    .label { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; font-weight: 600; text-anchor: middle; }
+    .label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; text-anchor: middle; }
   </style>
 
   <defs>
+    <!-- Bloque estilo Github Contributions -->
     <g id="blk">
-      <rect width="22" height="22" rx="4" fill="inherit" stroke="#0B0F17" stroke-width="1.5"/>
-      <rect x="3" y="3" width="16" height="6" rx="3" fill="#FFFFFF" opacity="0.12"/>
+      <rect x="2" y="2" width="18" height="18" rx="2" fill="inherit" />
     </g>
-    <g id="ghost">
-      <rect width="22" height="22" rx="4" fill="none" stroke="inherit" stroke-width="1.5" opacity="0.25"/>
-    </g>
+    <!-- Patrón para el fondo de celdas vacías -->
+    <pattern id="bg-grid" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="translate(170, 40)">
+      <rect x="2" y="2" width="18" height="18" rx="2" fill="#161B22" />
+    </pattern>
   </defs>
 
-  <!-- card compacta -->
+  <!-- Card compacta -->
   <rect x="8" y="8" width="544" height="284" rx="14" fill="#0D1117" stroke="#30363D"/>
 
-  <!-- tablero 10x6, celda 22px: x=170 y=40 -->
-  <rect x="170" y="40" width="220" height="132" rx="6" fill="#131A24" stroke="#30363D"/>
-  <g stroke="#232B36" stroke-width="1">
-    <line x1="170" y1="62" x2="390" y2="62"/><line x1="170" y1="84" x2="390" y2="84"/>
-    <line x1="170" y1="106" x2="390" y2="106"/><line x1="170" y1="128" x2="390" y2="128"/>
-    <line x1="170" y1="150" x2="390" y2="150"/>
-    <line x1="192" y1="40" x2="192" y2="172"/><line x1="214" y1="40" x2="214" y2="172"/>
-    <line x1="236" y1="40" x2="236" y2="172"/><line x1="258" y1="40" x2="258" y2="172"/>
-    <line x1="280" y1="40" x2="280" y2="172"/><line x1="302" y1="40" x2="302" y2="172"/>
-    <line x1="324" y1="40" x2="324" y2="172"/><line x1="346" y1="40" x2="346" y2="172"/>
-    <line x1="368" y1="40" x2="368" y2="172"/>
-  </g>
+  <!-- Tablero 10x6 estilo snake -->
+  <rect x="170" y="40" width="220" height="132" fill="url(#bg-grid)" />
 
-  <!-- ghosts de destino -->
-  <g stroke="#9B8FF8"><use href="#ghost" x="170" y="150"/><use href="#ghost" x="192" y="150"/><use href="#ghost" x="214" y="150"/><use href="#ghost" x="236" y="150"/></g>
-  <g stroke="#8B7CF7"><use href="#ghost" x="258" y="150"/><use href="#ghost" x="280" y="150"/><use href="#ghost" x="236" y="128"/><use href="#ghost" x="258" y="128"/></g>
-  <g stroke="#7C6FF0"><use href="#ghost" x="302" y="150"/><use href="#ghost" x="324" y="150"/><use href="#ghost" x="324" y="128"/></g>
-  <g stroke="#6C5CE7"><use href="#ghost" x="346" y="150"/><use href="#ghost" x="368" y="150"/><use href="#ghost" x="346" y="128"/><use href="#ghost" x="368" y="128"/></g>
-  <g stroke="#5A4BD6"><use href="#ghost" x="170" y="128"/><use href="#ghost" x="192" y="128"/><use href="#ghost" x="214" y="128"/><use href="#ghost" x="192" y="106"/></g>
-  <g stroke="#4A3FBF"><use href="#ghost" x="280" y="128"/><use href="#ghost" x="302" y="128"/><use href="#ghost" x="258" y="106"/><use href="#ghost" x="280" y="106"/></g>
-
-  <!-- P1 TS pieza I horizontal (fila 5: 0-3) -->
+  <!-- P1 TS pieza I horizontal -->
   <g fill="#9B8FF8">
     <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.02;0.06;0.10;0.14;0.18;1" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.73;0.75;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
     <use href="#blk" x="170" y="150"/><use href="#blk" x="192" y="150"/><use href="#blk" x="214" y="150"/><use href="#blk" x="236" y="150"/>
   </g>
 
-  <!-- P2 CSS pieza S (fila 5: 4-5 + fila 4: 3-4) -->
+  <!-- P2 CSS pieza S -->
   <g fill="#8B7CF7">
     <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.10;0.14;0.18;0.22;0.26;1" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.73;0.75;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
     <use href="#blk" x="258" y="150"/><use href="#blk" x="280" y="150"/><use href="#blk" x="236" y="128"/><use href="#blk" x="258" y="128"/>
   </g>
 
-  <!-- P3 HTML pieza L (fila 5: 6-7 + fila 4: 7) -->
+  <!-- P3 HTML pieza L (completada a 4 bloques) -->
   <g fill="#7C6FF0">
     <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.18;0.22;0.26;0.30;0.34;1" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.73;0.75;1" dur="14s" repeatCount="indefinite"/>
-    <use href="#blk" x="302" y="150"/><use href="#blk" x="324" y="150"/><use href="#blk" x="324" y="128"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="302" y="150"/><use href="#blk" x="324" y="150"/><use href="#blk" x="324" y="128"/><use href="#blk" x="324" y="106"/>
   </g>
 
-  <!-- P4 JSX pieza O (fila 5: 8-9 + fila 4: 8-9) -->
+  <!-- P4 JSX pieza O -->
   <g fill="#6C5CE7">
     <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.26;0.30;0.34;0.38;0.42;1" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.73;0.75;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
     <use href="#blk" x="346" y="150"/><use href="#blk" x="368" y="150"/><use href="#blk" x="346" y="128"/><use href="#blk" x="368" y="128"/>
   </g>
 
-  <!-- P5 JSON pieza T (fila 4: 0-2 + fila 3: 1) -->
+  <!-- P5 JSON pieza T -->
   <g fill="#5A4BD6">
     <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.34;0.38;0.42;0.46;0.50;1" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.73;0.75;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
     <use href="#blk" x="170" y="128"/><use href="#blk" x="192" y="128"/><use href="#blk" x="214" y="128"/><use href="#blk" x="192" y="106"/>
   </g>
 
-  <!-- P6 PostgreSQL pieza Z (fila 4: 5-6 + fila 3: 4-5) -->
+  <!-- P6 PostgreSQL pieza Z -->
   <g fill="#4A3FBF">
     <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.42;0.46;0.50;0.54;0.58;1" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.73;0.75;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
     <use href="#blk" x="280" y="128"/><use href="#blk" x="302" y="128"/><use href="#blk" x="258" y="106"/><use href="#blk" x="280" y="106"/>
   </g>
 
-  <!-- destello line clear fila 5 (completa) -->
-  <rect x="170" y="150" width="220" height="22" fill="#FFFFFF" opacity="0.55">
-    <animate attributeName="opacity" values="0;0;0.55;0;0.55;0;0.55;0;0" keyTimes="0;0.63;0.635;0.65;0.655;0.67;0.675;0.69;1" dur="14s" repeatCount="indefinite"/>
+  <!-- P7 React pieza O -->
+  <g fill="#8B7CF7">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.50;0.54;0.58;0.62;0.66;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="214" y="106"/><use href="#blk" x="236" y="106"/><use href="#blk" x="214" y="84"/><use href="#blk" x="236" y="84"/>
+  </g>
+
+  <!-- P8 Node pieza I vertical -->
+  <g fill="#6C5CE7">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.58;0.62;0.66;0.70;0.74;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="170" y="106"/><use href="#blk" x="170" y="84"/><use href="#blk" x="170" y="62"/><use href="#blk" x="170" y="40"/>
+  </g>
+
+  <!-- P9 Git pieza J -->
+  <g fill="#9B8FF8">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.66;0.70;0.74;0.78;0.82;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="368" y="106"/><use href="#blk" x="368" y="84"/><use href="#blk" x="368" y="62"/><use href="#blk" x="346" y="106"/>
+  </g>
+
+  <!-- destello line clear fila 5 -->
+  <rect x="170" y="150" width="220" height="22" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.55;0;0.55;0;0.55;0;0" keyTimes="0;0.84;0.845;0.86;0.865;0.88;0.885;0.90;1" dur="14s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- destello line clear fila 4 (completa) -->
-  <rect x="170" y="128" width="220" height="22" fill="#FFFFFF" opacity="0.55">
-    <animate attributeName="opacity" values="0;0;0.55;0;0.55;0;0.55;0;0" keyTimes="0;0.635;0.64;0.655;0.66;0.675;0.68;0.695;1" dur="14s" repeatCount="indefinite"/>
+  <!-- destello line clear fila 4 -->
+  <rect x="170" y="128" width="220" height="22" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.55;0;0.55;0;0.55;0;0" keyTimes="0;0.845;0.85;0.865;0.87;0.885;0.89;0.905;1" dur="14s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- etiquetas compactas DENTRO del cuadro -->
-  <text x="142" y="245" class="label" fill="#9B8FF8">TS</text>
-  <text x="180" y="245" class="label" fill="#8B7CF7">CSS</text>
-  <text x="225" y="245" class="label" fill="#7C6FF0">HTML</text>
-  <text x="270" y="245" class="label" fill="#6C5CE7">JSX</text>
-  <text x="315" y="245" class="label" fill="#5A4BD6">JSON</text>
-  <text x="387" y="245" class="label" fill="#4A3FBF">PostgreSQL</text>
+  <!-- Etiquetas que aparecen secuencialmente, distribuidas en 2 filas -->
+  <!-- Fila 1 -->
+  <text x="130" y="225" class="label" fill="#9B8FF8" opacity="0">TS<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.19;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="205" y="225" class="label" fill="#8B7CF7" opacity="0">CSS<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.26;0.27;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="280" y="225" class="label" fill="#7C6FF0" opacity="0">HTML<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.35;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="355" y="225" class="label" fill="#6C5CE7" opacity="0">JSX<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.42;0.43;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="430" y="225" class="label" fill="#5A4BD6" opacity="0">JSON<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.50;0.51;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+
+  <!-- Fila 2 -->
+  <text x="160" y="260" class="label" fill="#4A3FBF" opacity="0">PostgreSQL<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.58;0.59;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="240" y="260" class="label" fill="#8B7CF7" opacity="0">React<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.67;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="320" y="260" class="label" fill="#6C5CE7" opacity="0">Node<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.74;0.75;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="400" y="260" class="label" fill="#9B8FF8" opacity="0">Git<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.82;0.83;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Mi Stack en tetris: TS, CSS, HTML, JSX, JSON, PostgreSQL, React, Node y Git">
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; text-anchor: middle; }
+  </style>
+
+  <defs>
+    <!-- Bloque estilo Github Contributions -->
+    <g id="blk">
+      <rect x="2" y="2" width="18" height="18" rx="2" fill="inherit" />
+    </g>
+    <!-- Patrón para el fondo de celdas vacías -->
+    <pattern id="bg-grid" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="translate(170, 40)">
+      <rect x="2" y="2" width="18" height="18" rx="2" fill="#161B22" />
+    </pattern>
+  </defs>
+
+  <!-- Card compacta -->
+  <rect x="8" y="8" width="544" height="284" rx="14" fill="#0D1117" stroke="#30363D"/>
+
+  <!-- Tablero 10x6 estilo snake -->
+  <rect x="170" y="40" width="220" height="132" fill="url(#bg-grid)" />
+
+  <!-- P1 TS pieza I horizontal -->
+  <g fill="#9B8FF8">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.02;0.06;0.10;0.14;0.18;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="170" y="150"/><use href="#blk" x="192" y="150"/><use href="#blk" x="214" y="150"/><use href="#blk" x="236" y="150"/>
+  </g>
+
+  <!-- P2 CSS pieza S -->
+  <g fill="#8B7CF7">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.10;0.14;0.18;0.22;0.26;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="258" y="150"/><use href="#blk" x="280" y="150"/><use href="#blk" x="236" y="128"/><use href="#blk" x="258" y="128"/>
+  </g>
+
+  <!-- P3 HTML pieza L (completada a 4 bloques) -->
+  <g fill="#7C6FF0">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.18;0.22;0.26;0.30;0.34;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="302" y="150"/><use href="#blk" x="324" y="150"/><use href="#blk" x="324" y="128"/><use href="#blk" x="324" y="106"/>
+  </g>
+
+  <!-- P4 JSX pieza O -->
+  <g fill="#6C5CE7">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.26;0.30;0.34;0.38;0.42;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="346" y="150"/><use href="#blk" x="368" y="150"/><use href="#blk" x="346" y="128"/><use href="#blk" x="368" y="128"/>
+  </g>
+
+  <!-- P5 JSON pieza T -->
+  <g fill="#5A4BD6">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.34;0.38;0.42;0.46;0.50;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="170" y="128"/><use href="#blk" x="192" y="128"/><use href="#blk" x="214" y="128"/><use href="#blk" x="192" y="106"/>
+  </g>
+
+  <!-- P6 PostgreSQL pieza Z -->
+  <g fill="#4A3FBF">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.42;0.46;0.50;0.54;0.58;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="280" y="128"/><use href="#blk" x="302" y="128"/><use href="#blk" x="258" y="106"/><use href="#blk" x="280" y="106"/>
+  </g>
+
+  <!-- P7 React pieza O -->
+  <g fill="#8B7CF7">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.50;0.54;0.58;0.62;0.66;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="214" y="106"/><use href="#blk" x="236" y="106"/><use href="#blk" x="214" y="84"/><use href="#blk" x="236" y="84"/>
+  </g>
+
+  <!-- P8 Node pieza I vertical -->
+  <g fill="#6C5CE7">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.58;0.62;0.66;0.70;0.74;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="170" y="106"/><use href="#blk" x="170" y="84"/><use href="#blk" x="170" y="62"/><use href="#blk" x="170" y="40"/>
+  </g>
+
+  <!-- P9 Git pieza J -->
+  <g fill="#9B8FF8">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear" values="0 -320;0 -240;0 -160;0 -80;0 -30;0 0;0 0" keyTimes="0;0.66;0.70;0.74;0.78;0.82;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.90;0.92;1" dur="14s" repeatCount="indefinite"/>
+    <use href="#blk" x="368" y="106"/><use href="#blk" x="368" y="84"/><use href="#blk" x="368" y="62"/><use href="#blk" x="346" y="106"/>
+  </g>
+
+  <!-- destello line clear fila 5 -->
+  <rect x="170" y="150" width="220" height="22" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.55;0;0.55;0;0.55;0;0" keyTimes="0;0.84;0.845;0.86;0.865;0.88;0.885;0.90;1" dur="14s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- destello line clear fila 4 -->
+  <rect x="170" y="128" width="220" height="22" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.55;0;0.55;0;0.55;0;0" keyTimes="0;0.845;0.85;0.865;0.87;0.885;0.89;0.905;1" dur="14s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Etiquetas que aparecen secuencialmente, distribuidas en 2 filas -->
+  <!-- Fila 1 -->
+  <text x="130" y="225" class="label" fill="#9B8FF8" opacity="0">TS<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.19;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="205" y="225" class="label" fill="#8B7CF7" opacity="0">CSS<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.26;0.27;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="280" y="225" class="label" fill="#7C6FF0" opacity="0">HTML<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.35;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="355" y="225" class="label" fill="#6C5CE7" opacity="0">JSX<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.42;0.43;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="430" y="225" class="label" fill="#5A4BD6" opacity="0">JSON<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.50;0.51;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+
+  <!-- Fila 2 -->
+  <text x="160" y="260" class="label" fill="#4A3FBF" opacity="0">PostgreSQL<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.58;0.59;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="240" y="260" class="label" fill="#8B7CF7" opacity="0">React<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.67;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="320" y="260" class="label" fill="#6C5CE7" opacity="0">Node<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.74;0.75;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
+  <text x="400" y="260" class="label" fill="#9B8FF8" opacity="0">Git<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.82;0.83;0.90;0.92;1" dur="14s" repeatCount="indefinite"/></text>
 </svg>
