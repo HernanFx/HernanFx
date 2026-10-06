@@ -4,7 +4,7 @@
   <text x="10" y="16" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">TypeScript</text>
   <rect x="145" y="8" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="8" width="84" height="10" rx="5" ry="5" fill="#736be4" />
-  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">38.5%</text>
+  <text x="375" y="17" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">38.6%</text>
   <text x="10" y="44" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">Jupyter Notebook</text>
   <rect x="145" y="36" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="36" width="36" height="10" rx="5" ry="5" fill="#736be4" />
@@ -40,7 +40,7 @@
   <text x="10" y="268" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">PHP</text>
   <rect x="145" y="260" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="260" width="7" height="10" rx="5" ry="5" fill="#4035ce" />
-  <text x="375" y="269" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">3.5%</text>
+  <text x="375" y="269" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4" text-anchor="start">3.4%</text>
   <text x="10" y="296" font-family="'Segoe UI', monospace" font-size="13" fill="#c3c9d4">PLpgSQL</text>
   <rect x="145" y="288" width="220" height="10" rx="5" ry="5" fill="#161b22" />
   <rect x="145" y="288" width="5" height="10" rx="5" ry="5" fill="#736be4" />
